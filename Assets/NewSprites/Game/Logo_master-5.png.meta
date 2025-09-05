@@ -1,0 +1,6058 @@
+fileFormatVersion: 2
+guid: a13c3d2681b934d1abcaa86b3e1931e8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo_master-5_0
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 175
+        width: 770
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab926dd648f9f48b98ae3a1ea9509161
+      internalID: -367266415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_1
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 946
+        width: 290
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56647e2628038474586167f2ea1b6a56
+      internalID: -897940620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_2
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 972
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177796b8543774118841a5c2c37229ee
+      internalID: -1774175892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 942
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6827c71a9de9e440caaff9b9f3b304a4
+      internalID: -680786460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 981
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36b75b6631cb4109a309a5a92b65081
+      internalID: -522995515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_5
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 942
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ae6301286434cf18eaa68b7bce111e
+      internalID: -519404289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_6
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1002
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dddc2e9e3a144619fdf6b4a7543055
+      internalID: 1630055951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_7
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 945
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaec17e405eb04183bb627fc8a80b32f
+      internalID: 1085750157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_8
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 965
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a29fed83ccaa4828866452abd93cd4a
+      internalID: -1116651114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_9
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 719
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7f93c00d1cd40679c9bb811316096e
+      internalID: -1456186444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_10
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 713
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f584852636f874f81a94bd96660616d3
+      internalID: 881581947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_11
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 711
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d99647cae45469398d93148a18d58f
+      internalID: -217947467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_12
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 699
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f48346dd4d0495681585921785259a
+      internalID: 1399934137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_13
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 660
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cee26926dc7e451d842041723938e58
+      internalID: 1800020144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_14
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 700
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fd81e61c47646578aeb6696904d64f
+      internalID: -364451815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_15
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 683
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4790d08fa99024cd39169a34c393dce8
+      internalID: 54059469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_16
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 685
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333ae42272ec74a1bb950e2e64dd329d
+      internalID: -1107180407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_17
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 680
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c93660eae0f24f1995638eb0178d656
+      internalID: -242256406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_18
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 673
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e49e5662b2f4a23928502492311baa
+      internalID: 800028163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_19
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 672
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff65480f77274b86884a6c2ccdfabd1
+      internalID: 878525423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_20
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 676
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b632103967c2455cb617a0224b33227
+      internalID: -1868567021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_21
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 664
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8163aea6e87a14677b5d87a1d8858455
+      internalID: 1006873592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_22
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 663
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c68df740c604ae1964b218f9549114
+      internalID: 781446825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_23
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 666
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acc5f80398d947ddb345bd2925b9247
+      internalID: 1382241991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_24
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 669
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4d862c6663c4c94b2824846945a32a
+      internalID: -414991013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_25
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 665
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd473e728daa42eeb8e830891fdf99d
+      internalID: 948253334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_26
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 662
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc82eb44c7a941799e7c946e25875f3
+      internalID: -244321395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_27
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 663
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21857c3dc3c7340309760d0cc27160d5
+      internalID: 956168922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_28
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 660
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c782a944fcf80421296d80fe71fd77de
+      internalID: -130132058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_29
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 661
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4fe03c22ba54555a27fbd65d4adbff
+      internalID: -1395747156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_30
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 658
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2b8bcce2ad54dd18e01f3b16a2f641
+      internalID: 1335067163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_31
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 651
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecad4955394ec4673809cb57b855e2f7
+      internalID: -27198799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_32
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 630
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea291f4c8a9a462ca096b22e7596b47
+      internalID: -575238376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_33
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 638
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc50d9855d4747ffbc5158c62a9d8cc
+      internalID: -376383549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_34
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 649
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41861bacc66c647d2aa257023cb3d96b
+      internalID: 82461985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_35
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 650
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b772aeea5419d4ac99451538f1a0a382
+      internalID: -1690656848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_36
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 645
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5bd6d57a334418395cb85d7a0d7c5e
+      internalID: -1738147616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_37
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 635
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64144916b8554f399130b9000287257
+      internalID: 1183419810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_38
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 642
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851e3d1460bd04fb986cbbb6de0eed9c
+      internalID: -357096114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_39
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 644
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3629005b631a4658be2cfa93d294bb8
+      internalID: 1604901070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_40
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 646
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421d01a48cbb44fbba647b4ee3b2f6c7
+      internalID: -815122523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_41
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 652
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202da79f8c6ab42c39e3778a487a357a
+      internalID: -97903135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_42
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 588
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ca1841976034874bc57811b221aeae
+      internalID: 635180006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_43
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 645
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca22cac9903dd4a63be6e937df406e97
+      internalID: -310097689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_44
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 637
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32708af1b4912485398afb0bb13cf738
+      internalID: -140770728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_45
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 635
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f015f2028f5e44dcb96aedce8c0047df
+      internalID: -1003105316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_46
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 635
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920d3d0e4391c4368a67b7b8dcc9b482
+      internalID: 923543564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_47
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 640
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90a338f00b4a4bb0829e8dbfceab49a
+      internalID: 1536284345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_48
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 637
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40214307638df43f6a72cf2610377a71
+      internalID: 1611148429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_49
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 634
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56a4070e892e489db1e05224fcbc7ca
+      internalID: -1303027611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_50
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 632
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5911f0839715410ca7f1be284bb5274
+      internalID: -353433711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_51
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 619
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0c6670c579d45e2b20862c116326b4
+      internalID: -284238582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_52
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 622
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da86d93a3e234215b278f5ade144c50
+      internalID: -1182055232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_53
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 626
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609166d832085410fae240937691e900
+      internalID: 589522697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_54
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 625
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f0222c4da8547dca98d6cb9bde22ea
+      internalID: 1377612846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_55
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 629
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa3666a48ee34e8e9626099bf285601
+      internalID: -880548496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_56
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 631
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b40978c7d2df439895a6863db256119
+      internalID: 9241018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_57
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 631
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8bd071bfad542b9a9de2b60cae6686
+      internalID: -1748201459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_58
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 620
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e4a22895fa34e62ab43b06900840a8
+      internalID: -347894705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_59
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 620
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf950df1484414641914513271dc56bd
+      internalID: -46620046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_60
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 623
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec380189f1514d34ab47880a14fc4ba
+      internalID: 764600257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_61
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 606
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44aac8022b844b3aa111cc99a106bfa
+      internalID: 1592345992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_62
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 614
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5e983c9e1f14a7fb03d6ca28985010
+      internalID: 1314529282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_63
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 615
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb17108b543a44ab0a9684c6f0ddd7b1
+      internalID: -2024281356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_64
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 623
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dca961cea274674acab5fa635c25f0
+      internalID: 866632127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_65
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 622
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2af34913493941a8b18befe16cae4b1
+      internalID: 538474517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_66
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 624
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea94def689cf42aa8d2a13581181d76
+      internalID: 1052520449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_67
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 619
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e6ddbcaddda4b9b9a1d194ed9a0b33
+      internalID: 1508877294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_68
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 619
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e895f17e8f9b4dbdb3d4e4b4517d755
+      internalID: -395224814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_69
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 604
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c23ec709c3fd4712be232ea29025638
+      internalID: 1879528199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_70
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 602
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4776aecf0734173acde5b7474db013
+      internalID: 1422493168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_71
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 614
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e684231693b46aab0922c83b234e79
+      internalID: -40186630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_72
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 608
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcd23d2e2de043fdb21909c93f7f555
+      internalID: -656897767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_73
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 614
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5d69fb490cc48ff98cda6a02135dae
+      internalID: 1559017721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_74
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 610
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43252de6ef3e40ada0c08464dc2f371
+      internalID: 968626289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_75
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 611
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e5d3f60f78443a0b8dca1b794b23ef
+      internalID: 1006476320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_76
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 607
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbdf84c862a84f16a4aba2541178863
+      internalID: -1623653720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_77
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 600
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94db0888791e4b0bb51f1b26b8cdca4
+      internalID: -1724973454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_78
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 597
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a46b2a31ead24ac7b45a21c61a55b33
+      internalID: 540446194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_79
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 601
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87baea4ceed944d994a2666a2bf01c9
+      internalID: 2142624402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_80
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 590
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e7e5840e74d44ae82d74d184ac4e00
+      internalID: -1951346952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_81
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 596
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3570286ed7b4f495eb2cb871994097f1
+      internalID: 1002328405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_82
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 599
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41da63976338d459190a70bcce9fc0f9
+      internalID: -169382861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_83
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 601
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43104bec4326a4a4587aeff4564ab678
+      internalID: 2001231668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_84
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 587
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf7e303b97654543bfac07db60367c0
+      internalID: 2069817937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_85
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 587
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06e815c341354d52baea7c63063fa1d
+      internalID: 621509860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_86
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 578
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36f32f913e7747a89ebfbfbb806a569
+      internalID: -1024919461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_87
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 585
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2770d36b6f8a346a485e9dd37adf04cb
+      internalID: 430793295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_88
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 590
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5ce7102d51b46bea76030b31090f6c
+      internalID: 303470398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_89
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 583
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bbcf43928334227af846a6522ebeeb
+      internalID: -874730914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_90
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 571
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab818fa827f0a49738540354b2d777b7
+      internalID: 1683479564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_91
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 587
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f32fc164b8d74e5298889b0544f1c6e
+      internalID: 1925398782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_92
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 593
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1cd0d2818cc4d7b87e29b397b1f7a1
+      internalID: -737987607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_93
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 582
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2baffb829ed409f86121c1ddc7a3d9
+      internalID: -715590560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_94
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 584
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd92893a9708d459885c3d431fdc9d61
+      internalID: -235224545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_95
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 581
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6e2266ab2814f16945c531d0c62430
+      internalID: 249456200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_96
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 589
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fd120a3de5648d4b01c672cfcd7b00
+      internalID: 1117118628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_97
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 582
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef98a9760a6b49248cc0416e283328e
+      internalID: -390641485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_98
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 588
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a286061f1678240f98e99d8e27278202
+      internalID: 1597481956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_99
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 576
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c637e391db344a7581da49c6248295d
+      internalID: -1005322786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_100
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 570
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d75c00c6595d49fd9279da48e58b902
+      internalID: -457157274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_101
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 564
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2dbdc668f0d495fbffa79ac805e76c
+      internalID: -728995645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_102
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 568
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40970d435d394a3485267c5ca830f2c
+      internalID: -1615286103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_103
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 555
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e376547a9aea4c5c812eabb1c481c47
+      internalID: 710549552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_104
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 565
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eeae375e45d14e458e212f30f0c2cbd
+      internalID: 312190171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_105
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 552
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16816f7d2a18d4f5ca4458f3f0e7675e
+      internalID: 599650668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_106
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 545
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6631e6b58644ccb9bb6d2ba5aa2094
+      internalID: 1188153467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_107
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 560
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14ad20ecc1be4bd9914f56d355d6180
+      internalID: -2122802107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_108
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 570
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f772e5197632e43a6845d93bb803dc20
+      internalID: -291310447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_109
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 556
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a3fa55fdcc64b3297a113007d969aa
+      internalID: 600055809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_110
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 565
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d44107cf74af4741a1b5127db7bb226
+      internalID: 903487650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_111
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 551
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f750f5d2ee2294b30acccd749a57cd93
+      internalID: -1531605844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_112
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 538
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4440105845234e6e8a823974c74e0a3
+      internalID: -1963233515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_113
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 537
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5f0dc5643d7472db8ae40938409fc0
+      internalID: -701525226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_114
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 535
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259d214434aff49668be55743947d090
+      internalID: -686525660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_115
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 546
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec8a12bc02f745b89eed039db579c15
+      internalID: 335457931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_116
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 547
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672f6e5a9057c424aa4e6f95d82ad18c
+      internalID: -332898528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_117
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 536
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985ffa1959cc443ce8dc83ed39e5079f
+      internalID: -954026875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_118
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 524
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cf3f067f85d49d2a79d509bd84d401
+      internalID: 43115702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_119
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 539
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0e657abd2cf4ffb909a16685cb3b76
+      internalID: -218421537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_120
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 533
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fa0d68d9bb44701a009e64f235f781
+      internalID: -291801490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_121
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 522
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6b53165ad814e77871a8296949f000
+      internalID: -161908421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_122
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 522
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b34c6d95ab64498e89946c207346d50
+      internalID: 2007650851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_123
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 525
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77959dba98ed84a81ae9ad91911ceeb8
+      internalID: 1951982822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_124
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 523
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a671f6b9de9a24b35b84cb41e2bef244
+      internalID: -1120995632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_125
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 525
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80d863d14ef14ae9ad6632f7c073757
+      internalID: -1853700227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_126
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 510
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda88418e4d7345deae83125420702ee
+      internalID: -1165647949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_127
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 513
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecc16946d765469a9f87602b07a3a58
+      internalID: 1666420013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_128
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 518
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e93a16e3dc247f697b862bbe3071b9
+      internalID: 791050518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_129
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 517
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a5555eb91114377af4d32945a9c7fc
+      internalID: -1559117869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_130
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 511
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070c9a94f90d3438f882ae0481f8e8dd
+      internalID: -916565148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_131
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 503
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07e67508230248cf90a296486923d78
+      internalID: -609362558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_132
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 506
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b990caa0c354c75a00333808d2ce28
+      internalID: -1502981787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_133
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 502
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48123f9e52eb049a7913e607d49683fc
+      internalID: -1748509297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_134
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 495
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5b986b6bd1143a38892bda58fb7454
+      internalID: -1607848911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_135
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 490
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92745209d8174412cba36c3821b097b7
+      internalID: 711322022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_136
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 483
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822d1f855a6734d0887a7f5172a58823
+      internalID: -1590327702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_137
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 464
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d5a17475b53494ebf017bc0a833bd8
+      internalID: 1630497311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_138
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 458
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbb9040868364d4ab386b2978e815e5
+      internalID: -1071023215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_139
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 166
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d52f64e253b040ec8651aefc580e395
+      internalID: -190763262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_140
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 167
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70fbf4077e8f4ddda6289ecfb688242
+      internalID: -1143621378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_141
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 164
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329fe4de1c3314ab8b97ef45658bc1bb
+      internalID: 1607267496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_142
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 167
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c2b5bb57db947a4b13bd3ae19cde96
+      internalID: 773456502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_143
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 172
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a326544188334e82b2b1bd6b961841d
+      internalID: 514030790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_144
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 170
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323bfb697232246fa891008119ff7282
+      internalID: 583714035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_145
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 156
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37c10353b3c745d2939e4148babff65
+      internalID: -1714700897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_146
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 163
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fb9f0115efc4b89a216a26858eab58
+      internalID: 1040697216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_147
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 162
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215a2722fe8774894a7d93c7929ec655
+      internalID: -783552120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_148
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 150
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0b64c0665c044ce987477366a224f3
+      internalID: -32450456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_149
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 161
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f322625c4ea74546b8871d0a2103f2e
+      internalID: -920725210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_150
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 157
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2867569bd4e6f435e86662cb890ccd43
+      internalID: 173496249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_151
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 158
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934875cd8a72e4e6ab4c62d6e8343357
+      internalID: -263533767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_152
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 161
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eed3a5408a5d46fab91ac47780cdac4
+      internalID: -1211248534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_153
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 160
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc8776152bad42db8e98f47a58a1b00
+      internalID: -1316204196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_154
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 157
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27efce2285684a16912c95fe1c5be1b
+      internalID: 616528417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_155
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 150
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c5a94cddca74fc88cdff0d2672fa35
+      internalID: -762280804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_156
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 152
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a13d4254d1cb4552b9f59bcdf499cc0
+      internalID: 1679979945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_157
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 153
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf9a8fbed7ce4e9fa79593510e5d8fe
+      internalID: 69581782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_158
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 146
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1203f1507cf4499a61c3232be42cef
+      internalID: 1443934964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_159
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 148
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79b60251bb6345a1b164452a7993cff
+      internalID: -748995992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_160
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 150
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df0752c727574228a9e7ca365ce4bfe
+      internalID: 508173567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_161
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 144
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e781e9be21bb4b7ba9b31b211e5a26d
+      internalID: 800073271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_162
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 152
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda0ea4c9b1c64dceaf2093a348d0c46
+      internalID: 1065949471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_163
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 142
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921eb881bf43b4731a7dcae432a319a6
+      internalID: 603962472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_164
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 139
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9c77a8cbcc947f29fa5c2037d0c070
+      internalID: -183517299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_165
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 146
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6939652f512f449cb9abbafd5be5d372
+      internalID: -1712967759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_166
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 147
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a45d1f63b57a4ecd8640cebdcdfdf72
+      internalID: -843285369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_167
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 143
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37790d76f5f845609f29ce25f0d798d
+      internalID: 1838000084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_168
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 146
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf8b3923445f4a4d95a6f51f194eb1b
+      internalID: 1478810978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_169
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 139
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c430d71fa92854b9883d34079e0662ab
+      internalID: -1534929241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_170
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 143
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db258199454f4c25be7750ffdf651c6
+      internalID: 1391109039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_171
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 147
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60794d1176fca49d6a186579cb7a0c7e
+      internalID: 785278379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_172
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 147
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3091a9b3c3adf402e9db6e565bcc250d
+      internalID: -708513288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_173
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 142
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ec88909d1ed417aa33f4a7b63f1477
+      internalID: -718106250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_174
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 142
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516d111a0cea04f31a5e2affef0c81cd
+      internalID: 1566008818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_175
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 134
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8593f4e66d0534368a10c39a3ed8f36e
+      internalID: -1500990587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_176
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 138
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3125348d6e86b4c468733cfe53229ffa
+      internalID: -512830678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_177
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 134
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2348587e399374708bcbf6731526101f
+      internalID: 1543141768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_178
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 139
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b01be8659184d3a8aaf42d9e552bb5
+      internalID: 53099829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_179
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 127
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad50abf51d61451f9043e37a272e00d
+      internalID: -251530898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_180
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 129
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15d8bc9af38643e591a76b754a7cf89
+      internalID: -1259688516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_181
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 126
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163bf0fb7b71f47dbb59e93086efc38a
+      internalID: 951901565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_182
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 135
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d277101e8202453a864a6a2983ed19a
+      internalID: -936852144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_183
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 133
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4c8a340654a45f2b2e34f877c6d21e
+      internalID: 1400155830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_184
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 135
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027cbda86d81a4aeabced7a73d06cbf4
+      internalID: 914122663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_185
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 130
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafb1586634a44e69abccab0e476abee
+      internalID: 1878224123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_186
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 125
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f87fd4e0d7b417daf6c9c651526293
+      internalID: -121235556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_187
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 136
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d00d5d6cc0946faab08a4aaada776c
+      internalID: 594142337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_188
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 135
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d49c50b82f674c5b85460a6f8561203
+      internalID: 1066300889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_189
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 116
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec1efbec6f7a40a69d2290c2c9a624e
+      internalID: -44330469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_190
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 126
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2ac9575275c4a2dae8d8e9275e4f9e
+      internalID: -214819781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_191
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 125
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea45b40d6f514457790219ed71b0e941
+      internalID: -1779262116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_192
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 127
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e8b5cd58ef84a0aa3f6a1fd9d7d73b
+      internalID: -226145836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_193
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 129
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ca63708fa7147baa841fd4bd74d34a
+      internalID: 369495854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_194
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 120
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d0fdb0978fc4ef9b165fd722ba208a
+      internalID: 235971354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_195
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 115
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87649ee93081c49728d99572ac2bad81
+      internalID: 1052202739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_196
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 121
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80621621f8e2d41f5904da8b61641e7f
+      internalID: -766301760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_197
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 123
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eefa38fde44497786299b7213d63f1
+      internalID: 1958652147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_198
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 123
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1815784a53ffd4ccfbf684538af25fbb
+      internalID: -1441229549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_199
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 120
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa2cda82fa484f65ad4163b08eeca30
+      internalID: -2024255354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_200
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 115
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3198cc87d6b31400894e1e08b5712a1d
+      internalID: 1479125273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_201
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 112
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3820300f38c26411f87208c8d9b141c4
+      internalID: -2011247614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_202
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 116
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8095c7a8c5e745cc95bb250050cfd57
+      internalID: -792510553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_203
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 113
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169ac3f320dbc44058af190d33329406
+      internalID: 1706644061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_204
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 115
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b714c03750c3a4a308509f6796502f4d
+      internalID: 1848543267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_205
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 113
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aceedd7478b94e87bf350fee9bf5a9a
+      internalID: -780394935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_206
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 104
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc33a65ecc3b1438ba6f5319cbecf47c
+      internalID: 870669364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_207
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 102
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0e538bb4e0346da87907450ebc716d
+      internalID: 231493265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_208
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 107
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3473158bb05744d95888ebe0281a59fc
+      internalID: -325281241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_209
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 112
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0683c31bc6e54410aa1fe465861d81d
+      internalID: -623104873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_210
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 107
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066e004661ce14a47a338352f45d9d3d
+      internalID: -101915190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_211
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 102
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5366a38fe95472b9e3500d6f10b47f
+      internalID: -1055342497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_212
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 104
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875ff8504350e43769b343d0e6c456f6
+      internalID: -935167796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_213
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 105
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9f7437638784ef38db0d003acc888c
+      internalID: -123311111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_214
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 104
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90171bdda507c4983ba490917d5d605d
+      internalID: -973519801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_215
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 99
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b446f2951d64b3a9653d35c2d209a2
+      internalID: 170254629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_216
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 99
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62e875c92afb4b8dae72eb75097e981
+      internalID: 457844095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_217
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 92
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aead25009f4c40bbb898b1c597e3677
+      internalID: 345458354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_218
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 95
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32491573308a4515909d5d64ff54a5f
+      internalID: -331350080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_219
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 101
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222299fd174fd448ab63a7a7b1fa82bd
+      internalID: 432310378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_220
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 99
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd2f26490b504867a93cab6b4f49474
+      internalID: -172144696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_221
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 102
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4d7867223f94f079df35e774da4cda
+      internalID: -929530450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_222
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 92
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99878fddcf6fb4ae3b54a951ab83a700
+      internalID: 179981796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_223
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 94
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e180a1dd9234f48318442e192c6b996f
+      internalID: -1721596744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_224
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 96
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de9b1970c3d740f7bc4c3cb24889128
+      internalID: 1147507219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_225
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 94
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f569df8772dd4746ba0cf93562bff2b
+      internalID: -1298418188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_226
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 94
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae809105e699d423a9592a0517936769
+      internalID: 1370608063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_227
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 86
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea10ce3d74b8423f9212d96f3138a55
+      internalID: -862819657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_228
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 90
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb23908a6e80147fab7331f0300a9920
+      internalID: -1674100815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_229
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 90
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d838d026e63144e81a14948c8c0aaf89
+      internalID: 1093667898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_230
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 92
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cad4f8d69f1149f6b75a4340315e487
+      internalID: -1295030650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_231
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 88
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42999caa0e66241d39feca2db1afba80
+      internalID: -1730132912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_232
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 82
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7243759e0c80b4bbba9f352c7f231191
+      internalID: -445030221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_233
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 90
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c34ff41a1764eeaaa3e716754a8e0c
+      internalID: 221708132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_234
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 89
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6eeaed9017640638503bb13be0bad1
+      internalID: -515735641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_235
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 87
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05629307597314f588ffa80fcc7247c2
+      internalID: -7214983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_236
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 83
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3e92745f8b841dbbbfdf0b8e779fe5
+      internalID: 59684946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_237
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 84
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c7618fce63e4d5f98789d123a7dac4
+      internalID: -1378957861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_238
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 80
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d020c07224143f297373205a815b40
+      internalID: -1084132918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_239
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 85
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ade6f82400549db86ba8cccf6ad89f
+      internalID: -1614804677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_240
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 84
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6ceb41459934b4ca38100b7afa160c
+      internalID: -980210072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_241
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 82
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185c22faa5d2d4f1bbaf8ec66a251a41
+      internalID: 1226051254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_242
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 75
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448b9b71f804a4aca871fdb49d2e8f19
+      internalID: -581059736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_243
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 78
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc4904b680e7400a9f0ca6c16d103b6
+      internalID: -1379657201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_244
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 71
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0e9fcbfb58743139c3daad8b192a95
+      internalID: 1284384537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_245
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b4c78654f7d445f830ace8e67d8cb0
+      internalID: -1482526565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_246
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 72
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60d6360acdcc4b5297df8989e138c69
+      internalID: 1683079282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_247
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 72
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010dd26a809f44d07b171d82a502bd96
+      internalID: -341545767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_248
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 69
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d903e98c7a4844c779700959b0c09a72
+      internalID: -1501051882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_249
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 62
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c92a90693b147338a6559bad774764
+      internalID: -1614238211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_250
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 67
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55499fd93fcde446a8e9a80882814481
+      internalID: -1258706088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_251
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 67
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f1407a2e455442b90c0229c335f43f
+      internalID: 841506079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_252
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 65
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996c7094df3d44a3a92186868f8d4b38
+      internalID: -1231048926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_253
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 64
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0414625a0feb5422e9dae28c48f5d6ac
+      internalID: 30623250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_254
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 59
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb088e1d323ad4a4ebc138b6087bef9a
+      internalID: -1565772301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_255
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 54
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d72cd40e3f9a4327a12874b547a3bc1
+      internalID: -1712555791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_256
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 62
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b108d376dd9964322b85abe71ecb3bdf
+      internalID: -1622732951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_257
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 59
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcacd22216adf47809b9bc1c826e3c89
+      internalID: -64347088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_258
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 58
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e2de7a7cce342d4a524ede2fa987ec
+      internalID: -1022824826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_259
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 58
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1448e367236f4ac6b1bbc0f5769b7e8
+      internalID: 1095973791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_260
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 35
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7464f07fc32ca4f91a1004c853602cdd
+      internalID: -2044338393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_261
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 39
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f2a3df91c864f3cbe382698d98491f
+      internalID: 1907094321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_262
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 54
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811717695eb8a4d698dd2a8b8def8770
+      internalID: 143767208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_263
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 54
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6d02b9ab4ff477187ebeefb56298d0
+      internalID: -1835486618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_264
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 51
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60904ae6c3b364e9cbaa25160ade1bd9
+      internalID: 1339422814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_265
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 28
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63181ac2b160a4b9baa5203a5caefe25
+      internalID: -1238952185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_266
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 43
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb2622fbca0b411fac0bf1e5c69fe69
+      internalID: 458249897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_267
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 49
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f142f2577b5544c691a570950394bf9
+      internalID: -852948799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_master-5_268
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 34
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c16906d87b744325a640c0110ffa816
+      internalID: -337236771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Logo_master-5_0: -367266415
+      Logo_master-5_1: -897940620
+      Logo_master-5_10: 881581947
+      Logo_master-5_100: -457157274
+      Logo_master-5_101: -728995645
+      Logo_master-5_102: -1615286103
+      Logo_master-5_103: 710549552
+      Logo_master-5_104: 312190171
+      Logo_master-5_105: 599650668
+      Logo_master-5_106: 1188153467
+      Logo_master-5_107: -2122802107
+      Logo_master-5_108: -291310447
+      Logo_master-5_109: 600055809
+      Logo_master-5_11: -217947467
+      Logo_master-5_110: 903487650
+      Logo_master-5_111: -1531605844
+      Logo_master-5_112: -1963233515
+      Logo_master-5_113: -701525226
+      Logo_master-5_114: -686525660
+      Logo_master-5_115: 335457931
+      Logo_master-5_116: -332898528
+      Logo_master-5_117: -954026875
+      Logo_master-5_118: 43115702
+      Logo_master-5_119: -218421537
+      Logo_master-5_12: 1399934137
+      Logo_master-5_120: -291801490
+      Logo_master-5_121: -161908421
+      Logo_master-5_122: 2007650851
+      Logo_master-5_123: 1951982822
+      Logo_master-5_124: -1120995632
+      Logo_master-5_125: -1853700227
+      Logo_master-5_126: -1165647949
+      Logo_master-5_127: 1666420013
+      Logo_master-5_128: 791050518
+      Logo_master-5_129: -1559117869
+      Logo_master-5_13: 1800020144
+      Logo_master-5_130: -916565148
+      Logo_master-5_131: -609362558
+      Logo_master-5_132: -1502981787
+      Logo_master-5_133: -1748509297
+      Logo_master-5_134: -1607848911
+      Logo_master-5_135: 711322022
+      Logo_master-5_136: -1590327702
+      Logo_master-5_137: 1630497311
+      Logo_master-5_138: -1071023215
+      Logo_master-5_139: -190763262
+      Logo_master-5_14: -364451815
+      Logo_master-5_140: -1143621378
+      Logo_master-5_141: 1607267496
+      Logo_master-5_142: 773456502
+      Logo_master-5_143: 514030790
+      Logo_master-5_144: 583714035
+      Logo_master-5_145: -1714700897
+      Logo_master-5_146: 1040697216
+      Logo_master-5_147: -783552120
+      Logo_master-5_148: -32450456
+      Logo_master-5_149: -920725210
+      Logo_master-5_15: 54059469
+      Logo_master-5_150: 173496249
+      Logo_master-5_151: -263533767
+      Logo_master-5_152: -1211248534
+      Logo_master-5_153: -1316204196
+      Logo_master-5_154: 616528417
+      Logo_master-5_155: -762280804
+      Logo_master-5_156: 1679979945
+      Logo_master-5_157: 69581782
+      Logo_master-5_158: 1443934964
+      Logo_master-5_159: -748995992
+      Logo_master-5_16: -1107180407
+      Logo_master-5_160: 508173567
+      Logo_master-5_161: 800073271
+      Logo_master-5_162: 1065949471
+      Logo_master-5_163: 603962472
+      Logo_master-5_164: -183517299
+      Logo_master-5_165: -1712967759
+      Logo_master-5_166: -843285369
+      Logo_master-5_167: 1838000084
+      Logo_master-5_168: 1478810978
+      Logo_master-5_169: -1534929241
+      Logo_master-5_17: -242256406
+      Logo_master-5_170: 1391109039
+      Logo_master-5_171: 785278379
+      Logo_master-5_172: -708513288
+      Logo_master-5_173: -718106250
+      Logo_master-5_174: 1566008818
+      Logo_master-5_175: -1500990587
+      Logo_master-5_176: -512830678
+      Logo_master-5_177: 1543141768
+      Logo_master-5_178: 53099829
+      Logo_master-5_179: -251530898
+      Logo_master-5_18: 800028163
+      Logo_master-5_180: -1259688516
+      Logo_master-5_181: 951901565
+      Logo_master-5_182: -936852144
+      Logo_master-5_183: 1400155830
+      Logo_master-5_184: 914122663
+      Logo_master-5_185: 1878224123
+      Logo_master-5_186: -121235556
+      Logo_master-5_187: 594142337
+      Logo_master-5_188: 1066300889
+      Logo_master-5_189: -44330469
+      Logo_master-5_19: 878525423
+      Logo_master-5_190: -214819781
+      Logo_master-5_191: -1779262116
+      Logo_master-5_192: -226145836
+      Logo_master-5_193: 369495854
+      Logo_master-5_194: 235971354
+      Logo_master-5_195: 1052202739
+      Logo_master-5_196: -766301760
+      Logo_master-5_197: 1958652147
+      Logo_master-5_198: -1441229549
+      Logo_master-5_199: -2024255354
+      Logo_master-5_2: -1774175892
+      Logo_master-5_20: -1868567021
+      Logo_master-5_200: 1479125273
+      Logo_master-5_201: -2011247614
+      Logo_master-5_202: -792510553
+      Logo_master-5_203: 1706644061
+      Logo_master-5_204: 1848543267
+      Logo_master-5_205: -780394935
+      Logo_master-5_206: 870669364
+      Logo_master-5_207: 231493265
+      Logo_master-5_208: -325281241
+      Logo_master-5_209: -623104873
+      Logo_master-5_21: 1006873592
+      Logo_master-5_210: -101915190
+      Logo_master-5_211: -1055342497
+      Logo_master-5_212: -935167796
+      Logo_master-5_213: -123311111
+      Logo_master-5_214: -973519801
+      Logo_master-5_215: 170254629
+      Logo_master-5_216: 457844095
+      Logo_master-5_217: 345458354
+      Logo_master-5_218: -331350080
+      Logo_master-5_219: 432310378
+      Logo_master-5_22: 781446825
+      Logo_master-5_220: -172144696
+      Logo_master-5_221: -929530450
+      Logo_master-5_222: 179981796
+      Logo_master-5_223: -1721596744
+      Logo_master-5_224: 1147507219
+      Logo_master-5_225: -1298418188
+      Logo_master-5_226: 1370608063
+      Logo_master-5_227: -862819657
+      Logo_master-5_228: -1674100815
+      Logo_master-5_229: 1093667898
+      Logo_master-5_23: 1382241991
+      Logo_master-5_230: -1295030650
+      Logo_master-5_231: -1730132912
+      Logo_master-5_232: -445030221
+      Logo_master-5_233: 221708132
+      Logo_master-5_234: -515735641
+      Logo_master-5_235: -7214983
+      Logo_master-5_236: 59684946
+      Logo_master-5_237: -1378957861
+      Logo_master-5_238: -1084132918
+      Logo_master-5_239: -1614804677
+      Logo_master-5_24: -414991013
+      Logo_master-5_240: -980210072
+      Logo_master-5_241: 1226051254
+      Logo_master-5_242: -581059736
+      Logo_master-5_243: -1379657201
+      Logo_master-5_244: 1284384537
+      Logo_master-5_245: -1482526565
+      Logo_master-5_246: 1683079282
+      Logo_master-5_247: -341545767
+      Logo_master-5_248: -1501051882
+      Logo_master-5_249: -1614238211
+      Logo_master-5_25: 948253334
+      Logo_master-5_250: -1258706088
+      Logo_master-5_251: 841506079
+      Logo_master-5_252: -1231048926
+      Logo_master-5_253: 30623250
+      Logo_master-5_254: -1565772301
+      Logo_master-5_255: -1712555791
+      Logo_master-5_256: -1622732951
+      Logo_master-5_257: -64347088
+      Logo_master-5_258: -1022824826
+      Logo_master-5_259: 1095973791
+      Logo_master-5_26: -244321395
+      Logo_master-5_260: -2044338393
+      Logo_master-5_261: 1907094321
+      Logo_master-5_262: 143767208
+      Logo_master-5_263: -1835486618
+      Logo_master-5_264: 1339422814
+      Logo_master-5_265: -1238952185
+      Logo_master-5_266: 458249897
+      Logo_master-5_267: -852948799
+      Logo_master-5_268: -337236771
+      Logo_master-5_27: 956168922
+      Logo_master-5_28: -130132058
+      Logo_master-5_29: -1395747156
+      Logo_master-5_3: -680786460
+      Logo_master-5_30: 1335067163
+      Logo_master-5_31: -27198799
+      Logo_master-5_32: -575238376
+      Logo_master-5_33: -376383549
+      Logo_master-5_34: 82461985
+      Logo_master-5_35: -1690656848
+      Logo_master-5_36: -1738147616
+      Logo_master-5_37: 1183419810
+      Logo_master-5_38: -357096114
+      Logo_master-5_39: 1604901070
+      Logo_master-5_4: -522995515
+      Logo_master-5_40: -815122523
+      Logo_master-5_41: -97903135
+      Logo_master-5_42: 635180006
+      Logo_master-5_43: -310097689
+      Logo_master-5_44: -140770728
+      Logo_master-5_45: -1003105316
+      Logo_master-5_46: 923543564
+      Logo_master-5_47: 1536284345
+      Logo_master-5_48: 1611148429
+      Logo_master-5_49: -1303027611
+      Logo_master-5_5: -519404289
+      Logo_master-5_50: -353433711
+      Logo_master-5_51: -284238582
+      Logo_master-5_52: -1182055232
+      Logo_master-5_53: 589522697
+      Logo_master-5_54: 1377612846
+      Logo_master-5_55: -880548496
+      Logo_master-5_56: 9241018
+      Logo_master-5_57: -1748201459
+      Logo_master-5_58: -347894705
+      Logo_master-5_59: -46620046
+      Logo_master-5_6: 1630055951
+      Logo_master-5_60: 764600257
+      Logo_master-5_61: 1592345992
+      Logo_master-5_62: 1314529282
+      Logo_master-5_63: -2024281356
+      Logo_master-5_64: 866632127
+      Logo_master-5_65: 538474517
+      Logo_master-5_66: 1052520449
+      Logo_master-5_67: 1508877294
+      Logo_master-5_68: -395224814
+      Logo_master-5_69: 1879528199
+      Logo_master-5_7: 1085750157
+      Logo_master-5_70: 1422493168
+      Logo_master-5_71: -40186630
+      Logo_master-5_72: -656897767
+      Logo_master-5_73: 1559017721
+      Logo_master-5_74: 968626289
+      Logo_master-5_75: 1006476320
+      Logo_master-5_76: -1623653720
+      Logo_master-5_77: -1724973454
+      Logo_master-5_78: 540446194
+      Logo_master-5_79: 2142624402
+      Logo_master-5_8: -1116651114
+      Logo_master-5_80: -1951346952
+      Logo_master-5_81: 1002328405
+      Logo_master-5_82: -169382861
+      Logo_master-5_83: 2001231668
+      Logo_master-5_84: 2069817937
+      Logo_master-5_85: 621509860
+      Logo_master-5_86: -1024919461
+      Logo_master-5_87: 430793295
+      Logo_master-5_88: 303470398
+      Logo_master-5_89: -874730914
+      Logo_master-5_9: -1456186444
+      Logo_master-5_90: 1683479564
+      Logo_master-5_91: 1925398782
+      Logo_master-5_92: -737987607
+      Logo_master-5_93: -715590560
+      Logo_master-5_94: -235224545
+      Logo_master-5_95: 249456200
+      Logo_master-5_96: 1117118628
+      Logo_master-5_97: -390641485
+      Logo_master-5_98: 1597481956
+      Logo_master-5_99: -1005322786
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

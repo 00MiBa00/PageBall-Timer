@@ -1334,7 +1334,7 @@ GameObject:
   - component: {fileID: 403882143}
   - component: {fileID: 403882142}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: '[Canvas]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4081,11 +4081,11 @@ Transform:
   m_GameObject: {fileID: 1634786820}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1754032283}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1649282340
 GameObject:
@@ -4362,7 +4362,7 @@ GameObject:
   - component: {fileID: 1657959990}
   - component: {fileID: 1657959989}
   m_Layer: 0
-  m_Name: SoundController
+  m_Name: '[SoundController]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4628,7 +4628,7 @@ GameObject:
   - component: {fileID: 1754032282}
   - component: {fileID: 1754032281}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: '[Main Camera]'
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4705,7 +4705,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1634786822}
+  - {fileID: 1995326760}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1868908756
@@ -5059,12 +5061,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995326757}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1754032283}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1997861479
 GameObject:
@@ -5371,7 +5373,7 @@ GameObject:
   - component: {fileID: 2105473160}
   - component: {fileID: 2105473161}
   m_Layer: 0
-  m_Name: SceneController
+  m_Name: '[SceneController]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5456,7 +5458,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 2105473160}
   - {fileID: 1754032283}
-  - {fileID: 1634786822}
   - {fileID: 403882145}
-  - {fileID: 1995326760}
   - {fileID: 1657959990}

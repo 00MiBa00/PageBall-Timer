@@ -18,8 +18,6 @@ namespace Controllers.Scenes
         private PreviewBooksController _previewBooksController;
 
         [Space(5)] [Header("Views")] 
-        [SerializeField]
-        private VIPView _vipView;
         [SerializeField] 
         private StatusView _statusView;
         [SerializeField] 
@@ -111,7 +109,6 @@ namespace Controllers.Scenes
         {
             bool isVip = _model.IsVipActive;
             
-            _vipView.SetState(!isVip);
             _statusView.UpdateStatus(_model.StatusString);
 
             _progressBtn.gameObject.SetActive(isVip);
