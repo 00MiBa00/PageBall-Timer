@@ -155,7 +155,7 @@ namespace Controllers.Scenes
 
         private void LoadGameScene()
         {
-            base.LoadScene(SceneName.Game.ToString());
+            base.LoadScene(SceneName.GameScene.ToString());
         }
 
         private void OnDescriptionCharCountUpdated(string value)

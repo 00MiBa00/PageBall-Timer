@@ -435,7 +435,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.3, y: 2.5}
+  m_AnchoredPosition: {x: 3.3, y: 19}
   m_SizeDelta: {x: 108.3527, y: 25.2809}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &85221129
@@ -451,7 +451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6313726, g: 0.6117647, b: 0.6117647, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -459,19 +459,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5cdca8d72c920465a837c216ba09e0ee, type: 3}
+    m_Font: {fileID: 12800000, guid: 22918ec4a578543d99e6d3245938d9a9, type: 3}
     m_FontSize: 18
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 46
+    m_MaxSize: 20
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.8
-  m_Text: Are you sure
+  m_Text: Are you sure?
 --- !u!222 &85221130
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -600,6 +600,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 85951153}
   m_CullTransparentMesh: 1
+--- !u!1 &96655830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 96655831}
+  - component: {fileID: 96655833}
+  - component: {fileID: 96655832}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &96655831
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96655830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 134229506}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1000, y: 1000}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &96655832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96655830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2198da6b43dd44a5eaed92fdb688d8ae, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &96655833
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96655830}
+  m_CullTransparentMesh: 1
 --- !u!1 &102662675
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,8 +763,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 134229506}
-  - component: {fileID: 134229508}
-  - component: {fileID: 134229507}
   - component: {fileID: 134229509}
   m_Layer: 5
   m_Name: AllBooksPanel
@@ -710,6 +783,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 96655831}
   - {fileID: 1299550766}
   - {fileID: 1255341517}
   - {fileID: 1797744832}
@@ -720,44 +794,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &134229507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134229505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9ad87d7eb79d142bab6909e371ec425c, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &134229508
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134229505}
-  m_CullTransparentMesh: 1
 --- !u!114 &134229509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -885,8 +921,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 33.9, y: -58}
-  m_SizeDelta: {x: 36.25, y: 47.5}
+  m_AnchoredPosition: {x: 68.3, y: -58}
+  m_SizeDelta: {x: 88.803085, y: 42.08494}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &147289119
 MonoBehaviour:
@@ -952,7 +988,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 73a73447e59754a6ab5d0fd00bde886d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2c6fcf9c6b95a48a08dfda091f566634, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1526,8 +1562,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 201440043}
-  - component: {fileID: 201440045}
-  - component: {fileID: 201440044}
   - component: {fileID: 201440046}
   m_Layer: 5
   m_Name: PrivacyPanel
@@ -1548,6 +1582,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 264386311}
   - {fileID: 275861687}
   - {fileID: 1205664044}
   m_Father: {fileID: 698934202}
@@ -1557,44 +1592,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &201440044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201440042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9ad87d7eb79d142bab6909e371ec425c, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &201440045
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201440042}
-  m_CullTransparentMesh: 1
 --- !u!114 &201440046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1609,6 +1606,81 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _btns:
   - {fileID: 1474634643}
+--- !u!1 &264386310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 264386311}
+  - component: {fileID: 264386313}
+  - component: {fileID: 264386312}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &264386311
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264386310}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 201440043}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1000, y: 1000}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &264386312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264386310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0f8619f78eb114545beaebedea56b691, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &264386313
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264386310}
+  m_CullTransparentMesh: 1
 --- !u!1 &275861686
 GameObject:
   m_ObjectHideFlags: 0
@@ -1721,42 +1793,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296633806}
   m_CullTransparentMesh: 1
---- !u!1 &309475206
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 309475207}
-  m_Layer: 5
-  m_Name: Sliding Area
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &309475207
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309475206}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 896541646}
-  m_Father: {fileID: 1821862149}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 5}
-  m_SizeDelta: {x: -10, y: -10}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &313477667
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,14 +2251,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1719976513}
+  m_Children: []
   m_Father: {fileID: 1662572427}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 63.4, y: -55}
-  m_SizeDelta: {x: 110.75, y: 58}
+  m_SizeDelta: {x: 117, y: 46.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &461575287
 MonoBehaviour:
@@ -2288,7 +2323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5c6c9e21b29b24cd58ce9c52d16cfb35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6292d10dcd01e42d5976a8f3d12832da, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2495,7 +2530,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2548,8 +2583,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 33.9, y: -58}
-  m_SizeDelta: {x: 36.25, y: 47.5}
+  m_AnchoredPosition: {x: 67, y: -58}
+  m_SizeDelta: {x: 88.803085, y: 42.08494}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &524131821
 MonoBehaviour:
@@ -2615,7 +2650,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 73a73447e59754a6ab5d0fd00bde886d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2c6fcf9c6b95a48a08dfda091f566634, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2797,7 +2832,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 5677.28}
+  m_SizeDelta: {x: 0, y: 6295.186}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &559183598
 MonoBehaviour:
@@ -2820,7 +2855,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 22918ec4a578543d99e6d3245938d9a9, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -2832,93 +2867,153 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Developer (\"us\", \"we\", or \"our\") operates the Bookly Listalka mobile
-    application (hereinafter referred to as the \"Service\").\nThis page informs
-    you of our policies regarding the collection, use, and disclosure of personal
-    data when you use our Service and the choices you have associated with that data.
-    \nWe use your data to provide and improve the Service. By using the Service,
-    you agree to the collection and use of information in accordance with this policy.
-    Unless otherwise defined in this Privacy Policy, the terms used in this Privacy
-    Policy have the same meanings as in our Terms and Conditions.\n\nDefinitions\nService\nService
-    is the Bookly Listalka mobile application operated by Developer\nPersonal Data\nPersonal
+  m_Text: 'Developer ("us", "we", or "our") operates the PageBall Timer mobile application
+    (hereinafter referred to as the "Service"). This page informs you of our policies
+    regarding the collection, use, and disclosure of personal data when you use our
+    Service and the choices you have associated with that data. We use your data
+    to provide and improve the Service. By using the Service, you agree to the collection
+    and use of information in accordance with this policy. Unless otherwise defined
+    in this Privacy Policy, the terms used in this Privacy Policy have the same meanings
+    as in our Terms and Conditions.
+
+
+    Definitions
+
+
+    Service Service is the
+    PageBall Timer mobile application operated by Developer Personal Data Personal
     Data means data about a living individual who can be identified from those data
     (or from those and other information either in our possession or likely to come
-    into our possession).\nUsage Data\nUsage Data is data collected automatically
-    either generated by the use of the Service or from the Service infrastructure
-    itself (for example, the duration of a page visit).\nCookies\nCookies are small
-    files stored on your device (computer or mobile device).\n\nInformation Collection
-    and Use\nWe collect several different types of information for various purposes
-    to provide and improve our Service to you.\n\nTypes of Data Collected\n\nPersonal
-    Data\n\nWhile using our Service, we may ask you to provide us with certain personally
-    identifiable information that can be used to contact or identify you (\"Personal
-    Data\"). Personally identifiable information may include, but is not limited
-    to:\n\nCookies and Usage Data\n\nUsage Data\n\nWhen you access the Service by
-    or through a mobile device, we may collect certain information automatically,
-    including, but not limited to, the type of mobile device you use, your mobile
-    device unique ID, the IP address of your mobile device, your mobile operating
-    system, the type of mobile Internet browser you use, unique device identifiers
-    and other diagnostic data (\"Usage Data\").\n\nTracking & Cookies Data\n\nWe
-    use cookies and similar tracking technologies to track the activity on our Service
-    and we hold certain information.\nCookies are files with a small amount of data
-    which may include an anonymous unique identifier. Cookies are sent to your browser
-    from a website and stored on your device. Other tracking technologies are also
-    used such as beacons, tags and scripts to collect and track information and to
-    improve and analyse our Service.\nYou can instruct your browser to refuse all
-    cookies or to indicate when a cookie is being sent. However, if you do not accept
-    cookies, you may not be able to use some portions of our Service.\nExamples of
-    Cookies we use:\nSession Cookies. We use Session Cookies to operate our Service.\nPreference
-    Cookies. We use Preference Cookies to remember your preferences and various settings.\nSecurity
-    Cookies. We use Security Cookies for security purposes.\n\nUse of Data\nService
-    uses the collected data for various purposes:\nTo provide and maintain the Service\nTo
-    notify you about changes to our Service\nTo allow you to participate in interactive
-    features of our Service when you choose to do so\nTo provide customer care and
-    support\nTo provide analysis or valuable information so that we can improve the
-    Service\nTo monitor the usage of the Service\nTo detect, prevent and address
-    technical issues\n\nTransfer Of Data\nYour information, including Personal Data,
+    into our possession). Usage Data Usage Data is data collected automatically either
+    generated by the use of the Service or from the Service infrastructure itself
+    (for example, the duration of a page visit). Cookies Cookies are small files
+    stored on your device (computer or mobile device).
+
+
+    Information Collection
+    and Use
+
+
+    We collect several different types of information for various purposes
+    to provide and improve our Service to you. Types of Data Collected Personal Data
+    While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data"). Personally identifiable information may include, but is not limited to:
+    Cookies and Usage Data Usage Data When you access the Service by or through a
+    mobile device, we may collect certain information automatically, including, but
+    not limited to, the type of mobile device you use, your mobile device unique
+    ID, the IP address of your mobile device, your mobile operating system, the type
+    of mobile Internet browser you use, unique device identifiers and other diagnostic
+    data ("Usage Data"). Tracking & Cookies Data We use cookies and similar tracking
+    technologies to track the activity on our Service and we hold certain information.
+    Cookies are files with a small amount of data which may include an anonymous
+    unique identifier. Cookies are sent to your browser from a website and stored
+    on your device. Other tracking technologies are also used such as beacons, tags
+    and scripts to collect and track information and to improve and analyse our Service.
+    You can instruct your browser to refuse all cookies or to indicate when a cookie
+    is being sent. However, if you do not accept cookies, you may not be able to
+    use some portions of our Service. Examples of Cookies we use: Session Cookies.
+    We use Session Cookies to operate our Service. Preference Cookies. We use Preference
+    Cookies to remember your preferences and various settings. Security Cookies.
+    We use Security Cookies for security purposes.
+
+
+    Use of Data
+
+
+    Service
+    uses the collected data for various purposes: To provide and maintain the Service
+    To notify you about changes to our Service To allow you to participate in interactive
+    features of our Service when you choose to do so To provide customer care and
+    support To provide analysis or valuable information so that we can improve the
+    Service To monitor the usage of the Service To detect, prevent and address technical
+    issues
+
+
+    Transfer Of Data
+
+
+    Your information, including Personal Data,
     may be transferred to - and maintained on - computers located outside of your
     state, province, country or other governmental jurisdiction where the data protection
-    laws may differ than those from your jurisdiction.\nIf you are located outside
+    laws may differ than those from your jurisdiction. If you are located outside
     Seychelles and choose to provide information to us, please note that we transfer
-    the data, including Personal Data, to Seychelles and process it there.\nYour
-    consent to this Privacy Policy followed by your submission of such information
-    represents your agreement to that transfer.\nService will take all steps reasonably
-    necessary to ensure that your data is treated securely and in accordance with
-    this Privacy Policy and no transfer of your Personal Data will take place to
-    an organization or a country unless there are adequate controls in place including
-    the security of your data and other personal information.\n\nDisclosure Of Data\nLegal
-    Requirements\n\nService may disclose your Personal Data in the good faith belief
-    that such action is necessary to:\nTo comply with a legal obligation\nTo protect
-    and defend the rights or property of Service\nTo prevent or investigate possible
-    wrongdoing in connection with the Service\nTo protect the personal safety of
-    users of the Service or the public\nTo protect against legal liability\nAs an
-    European citizen, under GDPR, you have certain individual rights. You can learn
-    more about these guides in the GDPR Guide.\n\nSecurity of Data\nThe security
-    of your data is important to us but remember that no method of transmission over
+    the data, including Personal Data, to Seychelles and process it there. Your consent
+    to this Privacy Policy followed by your submission of such information represents
+    your agreement to that transfer. Service will take all steps reasonably necessary
+    to ensure that your data is treated securely and in accordance with this Privacy
+    Policy and no transfer of your Personal Data will take place to an organization
+    or a country unless there are adequate controls in place including the security
+    of your data and other personal information.
+
+
+    Disclosure Of Data
+
+
+    Legal
+    Requirements Service may disclose your Personal Data in the good faith belief
+    that such action is necessary to: To comply with a legal obligation To protect
+    and defend the rights or property of Service To prevent or investigate possible
+    wrongdoing in connection with the Service To protect the personal safety of users
+    of the Service or the public To protect against legal liability As an European
+    citizen, under GDPR, you have certain individual rights. You can learn more about
+    these guides in the GDPR Guide.
+
+
+    Security of Data
+
+
+    The security of
+    your data is important to us but remember that no method of transmission over
     the Internet or method of electronic storage is 100% secure. While we strive
     to use commercially acceptable means to protect your Personal Data, we cannot
-    guarantee its absolute security.\n\nService Providers\nWe may employ third party
-    companies and individuals to facilitate our Service (\"Service Providers\"),
+    guarantee its absolute security.
+
+
+    Service Providers
+
+
+    We may employ
+    third party companies and individuals to facilitate our Service ("Service Providers"),
     to provide the Service on our behalf, to perform Service-related services or
-    to assist us in analyzing how our Service is used.\nThese third parties have
-    access to your Personal Data only to perform these tasks on our behalf and are
-    obligated not to disclose or use it for any other purpose.\n\nLinks to Other
-    Sites\nOur Service may contain links to other sites that are not operated by
-    us. If you click a third party link, you will be directed to that third party's
-    site. We strongly advise you to review the Privacy Policy of every site you visit.\nWe
+    to assist us in analyzing how our Service is used. These third parties have access
+    to your Personal Data only to perform these tasks on our behalf and are obligated
+    not to disclose or use it for any other purpose.
+
+
+    Links to Other Sites
+
+
+    Our
+    Service may contain links to other sites that are not operated by us. If you
+    click a third party link, you will be directed to that third party''s site. We
+    strongly advise you to review the Privacy Policy of every site you visit. We
     have no control over and assume no responsibility for the content, privacy policies
-    or practices of any third party sites or services.\n\nChildren's Privacy\nOur
-    Service does not address anyone under the age of 18 (\"Children\").\nWe do not
-    knowingly collect personally identifiable information from anyone under the age
-    of 18. If you are a parent or guardian and you are aware that your Child has
-    provided us with Personal Data, please contact us. If we become aware that we
-    have collected Personal Data from children without verification of parental consent,
-    we take steps to remove that information from our servers.\n\nChanges to This
-    Privacy Policy\nWe may update our Privacy Policy from time to time. We will notify
-    you of any changes by posting the new Privacy Policy on this page.\nWe will let
+    or practices of any third party sites or services.
+
+
+    Children''s Privacy
+
+
+    Our
+    Service does not address anyone under the age of 18 ("Children"). We do not knowingly
+    collect personally identifiable information from anyone under the age of 18.
+    If you are a parent or guardian and you are aware that your Child has provided
+    us with Personal Data, please contact us. If we become aware that we have collected
+    Personal Data from children without verification of parental consent, we take
+    steps to remove that information from our servers.
+
+
+    Changes to This Privacy
+    Policy
+
+
+    We may update our Privacy Policy from time to time. We will notify
+    you of any changes by posting the new Privacy Policy on this page. We will let
     you know via email and/or a prominent notice on our Service, prior to the change
-    becoming effective and update the \"effective date\" at the top of this Privacy
-    Policy.\nYou are advised to review this Privacy Policy periodically for any changes.
-    Changes to this Privacy Policy are effective when they are posted on this page."
+    becoming effective and update the "effective date" at the top of this Privacy
+    Policy. You are advised to review this Privacy Policy periodically for any changes.
+    Changes to this Privacy Policy are effective when they are posted on this page.'
 --- !u!222 &559183599
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3074,13 +3169,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5cdca8d72c920465a837c216ba09e0ee, type: 3}
+    m_Font: {fileID: 12800000, guid: 22918ec4a578543d99e6d3245938d9a9, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 64
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -3622,8 +3717,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 748630099}
-  - component: {fileID: 748630101}
-  - component: {fileID: 748630100}
   - component: {fileID: 748630102}
   m_Layer: 5
   m_Name: Body
@@ -3655,44 +3748,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -50}
   m_SizeDelta: {x: 391, y: 742.139}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &748630100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 748630098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4082e17b1cb8244b88a41d3ec9a3f389, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &748630101
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 748630098}
-  m_CullTransparentMesh: 1
 --- !u!114 &748630102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3706,21 +3761,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _genreSprites:
-  - {fileID: 21300000, guid: 04d2761fd5ded402ca2f2e314800e24e, type: 3}
-  - {fileID: 21300000, guid: 2897d680a9dc345139732b10ca083aaa, type: 3}
-  - {fileID: 21300000, guid: defa70d1e9e5d4bbd986d09e5017fa9d, type: 3}
-  - {fileID: 21300000, guid: c8f4150f2052d4c099437396b16a1f23, type: 3}
-  - {fileID: 21300000, guid: 5b280d70d27804221800edbd91fe4de4, type: 3}
-  - {fileID: 21300000, guid: 018d3907b3e0b4cfc82cb80ebd9ae286, type: 3}
-  - {fileID: 21300000, guid: e57b8723373814343a94f2fcd3d9ed9a, type: 3}
-  - {fileID: 21300000, guid: 0b1a457b02ea8436abb72ba780d10a2f, type: 3}
-  - {fileID: 21300000, guid: 3d8ec7b51e6404b84944ed248c321164, type: 3}
-  - {fileID: 21300000, guid: 00abb02558d334b1caad80796f90a416, type: 3}
-  - {fileID: 21300000, guid: de8ae270da71f46d3b1182da5635489c, type: 3}
-  - {fileID: 21300000, guid: baee7abf3486c4a37975842155a7312e, type: 3}
-  - {fileID: 21300000, guid: 485bb998c302648869c151f74e88c857, type: 3}
-  - {fileID: 21300000, guid: e9c8fa02e6deb414da7efc62b243c283, type: 3}
-  - {fileID: 21300000, guid: 7e3afbadeccd5446f94053cf81a08f4f, type: 3}
+  - {fileID: 21300000, guid: 7b344475e4dbd40f0a49b2e63b3d0ceb, type: 3}
+  - {fileID: 21300000, guid: 11db4c6eb616e42b1b9a58ad849ceda8, type: 3}
+  - {fileID: 21300000, guid: 853e63fb80e71485fb95312f9fef8268, type: 3}
+  - {fileID: 21300000, guid: 5eab3f6df608448199f27f7517baec7c, type: 3}
+  - {fileID: 21300000, guid: af9927a44515d4327acc8c6b20df09c3, type: 3}
+  - {fileID: 21300000, guid: 9f96d635f26dd445abbf8d834337f205, type: 3}
+  - {fileID: 21300000, guid: 385635ae35ba344d5b63e98ed42d34fc, type: 3}
+  - {fileID: 21300000, guid: fdecfa124720442389da01b37687e569, type: 3}
+  - {fileID: 21300000, guid: e5618d8baf76842f0a1f0a1bf3f35004, type: 3}
+  - {fileID: 21300000, guid: a5dc119efc3e943bb87d91584b4a7ee0, type: 3}
+  - {fileID: 21300000, guid: 8975bbd7a3547459e868576ffc95a8af, type: 3}
+  - {fileID: 21300000, guid: 701d278469bbf408f904538ddc0fc269, type: 3}
+  - {fileID: 21300000, guid: 7b2cf187e5604494ab0aaa23d85c4e63, type: 3}
+  - {fileID: 21300000, guid: 11747353c874b4bffb787f80679ba907, type: 3}
+  - {fileID: 21300000, guid: 836b6c21f52c64f23abe69340f82c4ff, type: 3}
   _genreImages:
   - {fileID: 882458170}
   - {fileID: 1244386818}
@@ -3732,8 +3787,8 @@ MonoBehaviour:
   - {fileID: 946897463}
   - {fileID: 1418305670}
   _rateSprites:
-  - {fileID: 21300000, guid: 1361fb7fea81b4b8da562df266e2e06a, type: 3}
-  - {fileID: 21300000, guid: d511660ccc20344298d0ccbec97f2a43, type: 3}
+  - {fileID: 21300000, guid: 3f3bae7bf54954eac9b9395b5181fd33, type: 3}
+  - {fileID: 21300000, guid: 660430c3ff7f54b4284794562a17d5d4, type: 3}
   _bookNameText: {fileID: 653923100}
   _descriptionText: {fileID: 2087547000}
   _reduce: 4
@@ -3772,7 +3827,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -21.3449, y: -1.122}
-  m_SizeDelta: {x: 26, y: 27}
+  m_SizeDelta: {x: 19.5, y: 19.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &795611704
 MonoBehaviour:
@@ -3794,7 +3849,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d511660ccc20344298d0ccbec97f2a43, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3f3bae7bf54954eac9b9395b5181fd33, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4065,7 +4120,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 22918ec4a578543d99e6d3245938d9a9, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -4538,7 +4593,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 882458168}
   m_CullTransparentMesh: 1
---- !u!1 &896541645
+--- !u!1 &891483108
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4546,42 +4601,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 896541646}
-  - component: {fileID: 896541648}
-  - component: {fileID: 896541647}
+  - component: {fileID: 891483109}
+  - component: {fileID: 891483111}
+  - component: {fileID: 891483110}
   m_Layer: 5
-  m_Name: Handle
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &896541646
+--- !u!224 &891483109
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896541645}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 891483108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 309475207}
+  m_Father: {fileID: 1759723792}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -5}
-  m_SizeDelta: {x: 16, y: 10}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &896541647
+--- !u!114 &891483110
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896541645}
+  m_GameObject: {fileID: 891483108}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -4595,8 +4650,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 474126b2503024c30a745b63b75ca886, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 40bb68a46c1164ccf9804d8d6c9fe8d7, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4604,14 +4659,14 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 4
---- !u!222 &896541648
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &891483111
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896541645}
+  m_GameObject: {fileID: 891483108}
   m_CullTransparentMesh: 1
 --- !u!1 &907279041
 GameObject:
@@ -4686,7 +4741,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -43.8355, y: -1.122}
-  m_SizeDelta: {x: 26, y: 27}
+  m_SizeDelta: {x: 19.5, y: 19.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &922229473
 MonoBehaviour:
@@ -4708,7 +4763,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d511660ccc20344298d0ccbec97f2a43, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3f3bae7bf54954eac9b9395b5181fd33, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4836,7 +4891,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 23.3196, y: -1.122}
-  m_SizeDelta: {x: 26, y: 27}
+  m_SizeDelta: {x: 19.5, y: 19.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &946897463
 MonoBehaviour:
@@ -4858,7 +4913,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d511660ccc20344298d0ccbec97f2a43, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3f3bae7bf54954eac9b9395b5181fd33, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4911,7 +4966,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.7763, y: -1.122}
-  m_SizeDelta: {x: 26, y: 27}
+  m_SizeDelta: {x: 19.5, y: 19.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &949304212
 MonoBehaviour:
@@ -4933,7 +4988,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d511660ccc20344298d0ccbec97f2a43, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3f3bae7bf54954eac9b9395b5181fd33, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5144,7 +5199,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -100.7, y: -60.5}
-  m_SizeDelta: {x: 44.5, y: 44.5}
+  m_SizeDelta: {x: 46.718147, y: 46.718147}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1152776089
 MonoBehaviour:
@@ -5210,7 +5265,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fc1f9b481d28d4658b8d3010205b9fa1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 81724815a316b4fe5a56d73d74e19cab, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5264,7 +5319,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -48.699997, y: -60.8}
-  m_SizeDelta: {x: 41.75, y: 44.5}
+  m_SizeDelta: {x: 46.718147, y: 46.718147}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1171376243
 MonoBehaviour:
@@ -5330,7 +5385,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 90497fa53b47e45b483b2505360b2c4b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2623567770def44dd8c348ce6ad59ecb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5761,13 +5816,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1832946404}
-  - {fileID: 1821862149}
   m_Father: {fileID: 134229506}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.3645, y: 6.9606}
-  m_SizeDelta: {x: 400.57, y: 699.4771}
+  m_AnchoredPosition: {x: -6.3645, y: 5.2715}
+  m_SizeDelta: {x: 400.57, y: 650.3584}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1255341518
 MonoBehaviour:
@@ -5791,7 +5845,7 @@ MonoBehaviour:
   m_ScrollSensitivity: 1
   m_Viewport: {fileID: 1832946404}
   m_HorizontalScrollbar: {fileID: 0}
-  m_VerticalScrollbar: {fileID: 1821862150}
+  m_VerticalScrollbar: {fileID: 0}
   m_HorizontalScrollbarVisibility: 2
   m_VerticalScrollbarVisibility: 2
   m_HorizontalScrollbarSpacing: -3
@@ -5871,7 +5925,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -45.65039}
+  m_AnchoredPosition: {x: 0, y: -71.8999}
   m_SizeDelta: {x: 0, y: 91.3011}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1312009003
@@ -5904,14 +5958,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1754266489}
+  m_Children: []
   m_Father: {fileID: 1662572427}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -61.6, y: -55}
-  m_SizeDelta: {x: 110.75, y: 58}
+  m_SizeDelta: {x: 117, y: 46.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1312009005
 MonoBehaviour:
@@ -5977,7 +6030,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: eb368080cb7934da2beacec359dcb6d1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 61a56485bea7e4a2bad849fe94cfb433, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6346,7 +6399,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 46.0213, y: -1.122}
-  m_SizeDelta: {x: 26, y: 27}
+  m_SizeDelta: {x: 19.5, y: 19.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1418305670
 MonoBehaviour:
@@ -6368,7 +6421,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d511660ccc20344298d0ccbec97f2a43, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3f3bae7bf54954eac9b9395b5181fd33, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6421,8 +6474,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 33.9, y: -58}
-  m_SizeDelta: {x: 36.25, y: 47.5}
+  m_AnchoredPosition: {x: 68.5, y: -81.5}
+  m_SizeDelta: {x: 88.803085, y: 42.08494}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1474634643
 MonoBehaviour:
@@ -6488,7 +6541,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 73a73447e59754a6ab5d0fd00bde886d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2c6fcf9c6b95a48a08dfda091f566634, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6698,7 +6751,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.426601, y: 50}
+  m_AnchoredPosition: {x: 5.426601, y: 70}
   m_SizeDelta: {x: 227.8601, y: 52.4902}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1630200338
@@ -6722,7 +6775,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5cdca8d72c920465a837c216ba09e0ee, type: 3}
+    m_Font: {fileID: 12800000, guid: 22918ec4a578543d99e6d3245938d9a9, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -6858,7 +6911,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 27.2}
-  m_SizeDelta: {x: 274, y: 71}
+  m_SizeDelta: {x: 208, y: 82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1659782905
 MonoBehaviour:
@@ -6924,7 +6977,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b1d5169e619034a10aa651757fdd6029, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8e024e272d52a469a806c26d5706fa12, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7003,7 +7056,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7bcbfca607ab5400e892e9b7a0ef7578, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1d17198894339483081aff28947253a4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7131,7 +7184,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -43.591034}
+  m_AnchoredPosition: {x: 0, y: -66}
   m_SizeDelta: {x: 0, y: 87.182}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1708938047
@@ -7247,85 +7300,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1719976512
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1719976513}
-  - component: {fileID: 1719976515}
-  - component: {fileID: 1719976514}
-  m_Layer: 5
-  m_Name: Text (Legacy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1719976513
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719976512}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 461575286}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1719976514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719976512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 5cdca8d72c920465a837c216ba09e0ee, type: 3}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 30
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: NO
---- !u!222 &1719976515
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719976512}
-  m_CullTransparentMesh: 1
 --- !u!1 &1728254282
 GameObject:
   m_ObjectHideFlags: 0
@@ -7540,85 +7514,6 @@ Transform:
   - {fileID: 2033515345}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1754266488
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1754266489}
-  - component: {fileID: 1754266491}
-  - component: {fileID: 1754266490}
-  m_Layer: 5
-  m_Name: Text (Legacy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1754266489
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754266488}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1312009004}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1754266490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754266488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 5cdca8d72c920465a837c216ba09e0ee, type: 3}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 30
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: YES
---- !u!222 &1754266491
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754266488}
-  m_CullTransparentMesh: 1
 --- !u!1 &1759723791
 GameObject:
   m_ObjectHideFlags: 0
@@ -7628,8 +7523,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1759723792}
-  - component: {fileID: 1759723794}
-  - component: {fileID: 1759723793}
   - component: {fileID: 1759723795}
   m_Layer: 5
   m_Name: BookDescriptionPanel
@@ -7650,6 +7543,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 891483109}
   - {fileID: 1687637252}
   - {fileID: 748630099}
   m_Father: {fileID: 698934202}
@@ -7659,44 +7553,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1759723793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759723791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9ad87d7eb79d142bab6909e371ec425c, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1759723794
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759723791}
-  m_CullTransparentMesh: 1
 --- !u!114 &1759723795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7903,132 +7759,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820814656}
-  m_CullTransparentMesh: 1
---- !u!1 &1821862148
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1821862149}
-  - component: {fileID: 1821862152}
-  - component: {fileID: 1821862151}
-  - component: {fileID: 1821862150}
-  m_Layer: 5
-  m_Name: Scrollbar Vertical
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1821862149
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821862148}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 309475207}
-  m_Father: {fileID: 1255341517}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6.17, y: -44.87}
-  m_SizeDelta: {x: 2.1464846, y: 0}
-  m_Pivot: {x: 1, y: 1}
---- !u!114 &1821862150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821862148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 896541647}
-  m_HandleRect: {fileID: 896541646}
-  m_Direction: 2
-  m_Value: 1
-  m_Size: 1
-  m_NumberOfSteps: 0
-  m_OnValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1821862151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821862148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cacffcef03cce469bae0f454994dad02, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1821862152
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821862148}
   m_CullTransparentMesh: 1
 --- !u!1 &1832946403
 GameObject:
@@ -8658,8 +8388,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.4, y: -11.7}
-  m_SizeDelta: {x: 160, y: 51.449}
+  m_AnchoredPosition: {x: 0, y: -12.1}
+  m_SizeDelta: {x: 186.9737, y: 59.675}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022232310
 MonoBehaviour:
@@ -8682,7 +8412,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5cdca8d72c920465a837c216ba09e0ee, type: 3}
+    m_Font: {fileID: 12800000, guid: 22918ec4a578543d99e6d3245938d9a9, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
@@ -8896,7 +8626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.41960785, g: 0.41960785, b: 0.41960785, a: 1}
+  m_Color: {r: 0.8113208, g: 0.8074938, b: 0.8074938, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8904,7 +8634,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5cdca8d72c920465a837c216ba09e0ee, type: 3}
+    m_Font: {fileID: 12800000, guid: 22918ec4a578543d99e6d3245938d9a9, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1

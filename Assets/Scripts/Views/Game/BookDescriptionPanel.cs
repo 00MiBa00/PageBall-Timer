@@ -19,7 +19,7 @@ namespace Views.Game
 
         public void SetActiveDeleteBtn(bool value)
         {
-            base.Btns[1].interactable = value;
+            base.SetBtnInteractable(1, value);
         }
     }
 }

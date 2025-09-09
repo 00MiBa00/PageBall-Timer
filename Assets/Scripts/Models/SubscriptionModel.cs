@@ -37,7 +37,7 @@ namespace Models
 
         public string GetNextSceneName()
         {
-            string sceneName = BooksInfo.HaveBooks ? SceneName.Game.ToString() : SceneName.Create.ToString();
+            string sceneName = BooksInfo.HaveBooks ? SceneName.GameScene.ToString() : SceneName.CreateScene.ToString();
 
             return sceneName;
         }

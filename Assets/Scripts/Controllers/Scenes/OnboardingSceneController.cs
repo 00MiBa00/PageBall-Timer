@@ -17,7 +17,7 @@ namespace Controllers.Scenes
         
         protected override void OnSceneEnable()
         {
-            _firstPanel.PressBtnAction += OnReceiveAnswerFirstPanel;
+            _firstPanel.OnPressBtnAction += OnReceiveAnswerFirstPanel;
         }
 
         protected override void OnSceneStart()
@@ -48,13 +48,13 @@ namespace Controllers.Scenes
 
         private void OpenSecondPanel()
         {
-            _secondPanel.PressBtnAction += OnReceiveAnswerSecondPanel;
-            _secondPanel.gameObject.SetActive(true);
+            _secondPanel.OnPressBtnAction += OnReceiveAnswerSecondPanel;
+            _secondPanel.Open();
         }
 
         private void OnReceiveAnswerFirstPanel(int answer)
         {
-            _firstPanel.PressBtnAction -= OnReceiveAnswerFirstPanel;
+            _firstPanel.OnPressBtnAction -= OnReceiveAnswerFirstPanel;
 
             switch (answer)
             {
@@ -63,7 +63,7 @@ namespace Controllers.Scenes
                     break;
                 case 1:
                     base.SetClickClip();
-                    _firstPanel.gameObject.SetActive(true);
+                    _firstPanel.Close();
                     OpenSecondPanel();
                     break;
             }
@@ -71,7 +71,7 @@ namespace Controllers.Scenes
         
         private void OnReceiveAnswerSecondPanel(int answer)
         {
-            _secondPanel.PressBtnAction -= OnReceiveAnswerSecondPanel;
+            _secondPanel.OnPressBtnAction -= OnReceiveAnswerSecondPanel;
             
             OpenNextScene();
         }

@@ -50,7 +50,7 @@ namespace Controllers.Scenes
 
         private void OnPressBackBtn()
         {
-            base.LoadScene(SceneName.Game.ToString());
+            base.LoadScene(SceneName.GameScene.ToString());
         }
 
         private void OnPressPrivacyBtn()

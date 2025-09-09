@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,34 +8,61 @@ namespace Views.General
 {
     public class PanelView : MonoBehaviour
     {
-        public Action<int> PressBtnAction { get; set; }
+        public event Action<int> OnPressBtnAction;
 
-        [SerializeField] 
+        [SerializeField]
         private List<Button> _btns;
-
-        protected List<Button> Btns => _btns;
+        
+        private Tween _tween;
 
         private void OnEnable()
         {
             for (int i = 0; i < _btns.Count; i++)
             {
                 int index = i;
-                
-                _btns[i].onClick.AddListener(delegate { NotificationPressBtn(index); });
+
+                _btns[i].onClick.AddListener(() => Notification(index));
             }
         }
 
         private void OnDisable()
         {
-            foreach (var btn in _btns)
+            for (int i = 0; i < _btns.Count; i++)
             {
-                btn.onClick.RemoveAllListeners();
+                int index = i;
+
+                _btns[i].onClick.RemoveAllListeners();
             }
         }
 
-        private void NotificationPressBtn(int index)
+        public void Open()
         {
-            PressBtnAction?.Invoke(index);
+            _tween?.Kill();
+            
+            transform.localScale = Vector3.zero;
+            
+            gameObject.SetActive(true);
+
+            _tween = transform.DOScale(Vector3.one, 0.3f).SetEase(Ease.OutBack);
+        }
+
+        public void Close()
+        {
+            _tween?.Kill();
+
+            _tween = transform.DOScale(Vector3.zero, 0.3f).SetEase(Ease.InBack);
+            
+            gameObject.SetActive(false);
+        }
+
+        public void SetBtnInteractable(int index, bool value)
+        {
+            _btns[index].interactable = value;
+        }
+        
+        private void Notification(int index)
+        {
+            OnPressBtnAction?.Invoke(index);
         }
     }
 }

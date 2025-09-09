@@ -14,12 +14,12 @@ namespace Models
         {
             if (IsFirstTime)
             {
-                return SceneName.Onboarding.ToString();
+                return SceneName.OnboardingScene.ToString();
             }
 
             if (Subscription.HasSubscription())
             {
-                return BooksInfo.HaveBooks ? SceneName.Game.ToString() : SceneName.Create.ToString();
+                return BooksInfo.HaveBooks ? SceneName.GameScene.ToString() : SceneName.CreateScene.ToString();
             }
             else
             {

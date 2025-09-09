@@ -14,9 +14,10 @@ namespace Views.Create
 
         private void OnEnable()
         {
-            foreach (var btn in _selectorBtns)
+            for (int i = 0; i < _selectorBtns.Count; i++)
             {
-                btn.PressBtnAction += OnPressRateBtn;
+                _selectorBtns[i].PressBtnAction += OnPressRateBtn;
+                _selectorBtns[i].SetDefaultState();
             }
         }
 

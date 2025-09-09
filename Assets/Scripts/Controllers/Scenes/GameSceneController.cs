@@ -118,12 +118,12 @@ namespace Controllers.Scenes
 
         private void OnPressRewardBtn(BtnView btn)
         {
-            base.LoadScene(SceneName.Reward.ToString());
+            base.LoadScene(SceneName.RewardScene.ToString());
         }
 
         private void OnPressProgressBtn(BtnView btn)
         {
-            base.LoadScene(SceneName.Progress.ToString());
+            base.LoadScene(SceneName.ProgressScene.ToString());
         }
 
         private void OnPressPremiumBtn(BtnView btn)
@@ -133,7 +133,7 @@ namespace Controllers.Scenes
 
         private void OnPressCreateBtn()
         {
-            base.LoadScene(SceneName.Create.ToString());
+            base.LoadScene(SceneName.CreateScene.ToString());
         }
 
         private void OnPressAllBtn()
@@ -141,16 +141,16 @@ namespace Controllers.Scenes
             base.SetClickClip();
             
             _allBooksPanel.SetBooks(_model.GetBookModels());
-            _allBooksPanel.PressBtnAction += OnReceiveAnswerAllBooksPanel;
+            _allBooksPanel.OnPressBtnAction += OnReceiveAnswerAllBooksPanel;
             _allBooksPanel.PressItemAction += OnPressReadBtn;
-            _allBooksPanel.gameObject.SetActive(true);
+            _allBooksPanel.Open();
         }
 
         private void OnPressPrivacyBtn()
         {
             base.SetClickClip();
             
-            _privacyPanel.PressBtnAction += OnReceiveAnswerPrivacyPanel;
+            _privacyPanel.OnPressBtnAction += OnReceiveAnswerPrivacyPanel;
             OpenPrivacyPanel();
         }
 
@@ -158,7 +158,7 @@ namespace Controllers.Scenes
         {
             base.SetClickClip();
             
-            _privacyPanel.PressBtnAction -= OnReceiveAnswerPrivacyPanel;
+            _privacyPanel.OnPressBtnAction -= OnReceiveAnswerPrivacyPanel;
             ClosePrivacyPanel();
         }
 
@@ -171,7 +171,14 @@ namespace Controllers.Scenes
 
         private void SetActivePrivacyPanel(bool value)
         {
-            _privacyPanel.gameObject.SetActive(value);
+            if (value)
+            {
+                _privacyPanel.Open();
+            }
+            else
+            {
+                _privacyPanel.Close();
+            }
         }
 
         private void OpenPrivacyPanel()
@@ -193,15 +200,15 @@ namespace Controllers.Scenes
 
         private void OpenConfirmationPanel()
         {
-            _confirmationPanel.PressBtnAction += OnReceiveAnswerConfirmationPanel;
-            _confirmationPanel.gameObject.SetActive(true);
+            _confirmationPanel.OnPressBtnAction += OnReceiveAnswerConfirmationPanel;
+            _confirmationPanel.Open();
         }
 
         private void OnReceiveAnswerConfirmationPanel(int answer)
         {
             base.SetClickClip();
             
-            _confirmationPanel.PressBtnAction -= OnReceiveAnswerConfirmationPanel;
+            _confirmationPanel.OnPressBtnAction -= OnReceiveAnswerConfirmationPanel;
 
             switch (answer)
             {
@@ -209,7 +216,7 @@ namespace Controllers.Scenes
                     DeleteBook();
                     break;
                 case 1:
-                    _confirmationPanel.gameObject.SetActive(false);
+                    _confirmationPanel.Close();
                     break;
             }
         }
@@ -220,17 +227,17 @@ namespace Controllers.Scenes
             
             _allBooksPanel.Unsubscribe();
             
-            _allBooksPanel.PressBtnAction -= OnReceiveAnswerAllBooksPanel;
+            _allBooksPanel.OnPressBtnAction -= OnReceiveAnswerAllBooksPanel;
             _allBooksPanel.PressItemAction -= OnPressReadBtn;
             
             if (answer == 0)
             {
-                _allBooksPanel.gameObject.SetActive(false);
+                _allBooksPanel.Close();
                 _previewBooksController.SetCheckSwipe(true);
             }
             else
             {
-                base.LoadScene(SceneName.Create.ToString());
+                base.LoadScene(SceneName.CreateScene.ToString());
             }
         }
 
@@ -240,8 +247,8 @@ namespace Controllers.Scenes
             {
                 case 0:
                     base.SetClickClip();
-                    _bookDescriptionPanel.PressBtnAction -= OnReceiveAnswerBookDescriptionPanel;
-                    _bookDescriptionPanel.gameObject.SetActive(false);
+                    _bookDescriptionPanel.OnPressBtnAction -= OnReceiveAnswerBookDescriptionPanel;
+                    _bookDescriptionPanel.Close();
                     break;
                 case 1:
                     base.SetClickClip();
@@ -249,7 +256,7 @@ namespace Controllers.Scenes
                     break;
                 case 2:
                     _editModel.SetIndex(_model.SelectedBookIndex);
-                    base.LoadScene(SceneName.Edit.ToString(), false);
+                    base.LoadScene(SceneName.EditScene.ToString(), false);
                     break;
             }
         }
@@ -271,7 +278,7 @@ namespace Controllers.Scenes
             _previewBooksController.Initialize(models);
             _allBooksPanel.SetBooks(models);
             
-            _confirmationPanel.gameObject.SetActive(false);
+            _confirmationPanel.Close();
             OnReceiveAnswerBookDescriptionPanel(0);
         }
 
@@ -285,8 +292,8 @@ namespace Controllers.Scenes
             List<BookModel> models = new List<BookModel>(_model.GetBookModels());
             _bookDescriptionPanel.SetActiveDeleteBtn(_model.SelectedBookIndex > 0);
             _bookDescriptionPanel.SetDescription(models[_model.SelectedBookIndex]);
-            _bookDescriptionPanel.PressBtnAction += OnReceiveAnswerBookDescriptionPanel;
-            _bookDescriptionPanel.gameObject.SetActive(true);
+            _bookDescriptionPanel.OnPressBtnAction += OnReceiveAnswerBookDescriptionPanel;
+            _bookDescriptionPanel.Open();
         }
 
         private void UpdateDescription()

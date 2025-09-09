@@ -22,6 +22,8 @@ namespace Views.Create
 
         private void SetState(Sprite sprite)
         {
+            Debug.Log(sprite.name);
+            
             base.Btn.image.sprite = sprite;
         }
     }

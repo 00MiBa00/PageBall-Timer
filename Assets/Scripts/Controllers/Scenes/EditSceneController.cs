@@ -187,13 +187,11 @@ namespace Controllers.Scenes
         {
             OnEditSceneClosed?.Invoke();
             
-            base.UnloadScene(SceneName.Edit.ToString());
+            base.UnloadScene(SceneName.EditScene.ToString());
         }
         
         private void ShowAd()
         {
-            //CoreContainer.Instance.UnityAdsService.ShowAd();
-            
             CloseScene();
         }
     }

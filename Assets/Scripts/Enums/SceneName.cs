@@ -2,14 +2,14 @@ namespace Enums
 {
     public enum SceneName
     {
-        Onboarding,
+        OnboardingScene,
         Subscription,
-        Create,
-        Edit,
-        Game,
-        Tracker,
-        Settings,
-        Reward,
-        Progress
+        CreateScene,
+        EditScene,
+        GameScene,
+        TrackerScene,
+        SettingsScene,
+        RewardScene,
+        ProgressScene
     }
 }

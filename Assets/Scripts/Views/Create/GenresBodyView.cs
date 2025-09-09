@@ -15,9 +15,10 @@ namespace Views.Create
 
         private void OnEnable()
         {
-            foreach (var btn in _genreBtns)
+            for (int i = 0; i < _genreBtns.Count; i++)
             {
-                btn.PressBtnAction += OnPressBtn;
+                _genreBtns[i].PressBtnAction += OnPressBtn;
+                _genreBtns[i].SetDefaultState();
             }
         }
 
