@@ -1863,9 +1863,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forcedScreenOrientation: 1
-  endpoint: https://booklyballlistalka.com
-  appsflyerDevID: deuZGTY4Bq83mPp3XkqarU
-  IOS_ID: 6748304362
+  endpoint: https://pageballtimer.com
+  appsflyerDevID: nENd4D8F99nfbUWwiZ4J3o
+  IOS_ID: 6752025573
   _sleepObjects:
   - {fileID: 526442600}
   - {fileID: 2000666387}
