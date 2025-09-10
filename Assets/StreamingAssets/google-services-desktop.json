@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "966171959978",
+    "project_id": "pageball-timer",
+    "storage_bucket": "pageball-timer.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966171959978:ios:7841acdf947fb1a96de6d3",
+        "android_client_info": {
+          "package_name": "com.sedaAksoyGames.hslkfhak"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-EUcHcdR3mPVmka1Lrs0RAYmBJBySGpM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
