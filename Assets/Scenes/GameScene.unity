@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -385,7 +384,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 7297c6ead88ac4bef949ad413b7005ff, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -584,7 +583,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: e0baad7783a9449e0a5e00b5d6e41c24, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -632,10 +631,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 134229506}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &96655832
 MonoBehaviour:
@@ -650,14 +649,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.94509804, g: 0.9137255, b: 0.8784314, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2198da6b43dd44a5eaed92fdb688d8ae, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -725,7 +724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5372549, g: 0.5803922, b: 0.9960785, a: 1}
+  m_Color: {r: 1, g: 0.47460085, b: 0.1462264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1146,7 +1145,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1d17198894339483081aff28947253a4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 15ccc66cc0a9843b88cfcb0d8be39906, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1476,8 +1475,8 @@ MonoBehaviour:
   - {fileID: 1672675566}
   - {fileID: 945795639}
   _selectorSprites:
-  - {fileID: -1240301967, guid: d4a73fb3eb4ee4fc2bb9285f3a06eae4, type: 3}
-  - {fileID: -367266415, guid: a13c3d2681b934d1abcaa86b3e1931e8, type: 3}
+  - {fileID: 21300000, guid: 2c989a583f0994ffaa35d1e5347edf6b, type: 3}
+  - {fileID: 21300000, guid: a1ae0b33dcc27411a9cdb6cf9f2ae11c, type: 3}
 --- !u!1 &199671431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,10 +1637,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 201440043}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &264386312
 MonoBehaviour:
@@ -1663,7 +1662,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0f8619f78eb114545beaebedea56b691, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2832,7 +2831,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 6295.186}
+  m_SizeDelta: {x: 0, y: 6363.849}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &559183598
 MonoBehaviour:
@@ -2847,7 +2846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5176471, g: 0.29803923, b: 0.16078432, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2867,104 +2866,104 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Developer ("us", "we", or "our") operates the PageBall Timer mobile application
-    (hereinafter referred to as the "Service"). This page informs you of our policies
-    regarding the collection, use, and disclosure of personal data when you use our
-    Service and the choices you have associated with that data. We use your data
-    to provide and improve the Service. By using the Service, you agree to the collection
-    and use of information in accordance with this policy. Unless otherwise defined
-    in this Privacy Policy, the terms used in this Privacy Policy have the same meanings
-    as in our Terms and Conditions.
+  m_Text: 'Developer ("us", "we", or "our") operates the Story Collectors mobile
+    application (hereinafter referred to as the "Service"). This page informs you
+    of our policies regarding the collection, use, and disclosure of personal data
+    when you use our Service and the choices you have associated with that data.
+    We use your data to provide and improve the Service. By using the Service, you
+    agree to the collection and use of information in accordance with this policy.
+    Unless otherwise defined in this Privacy Policy, the terms used in this Privacy
+    Policy have the same meanings as in our Terms and Conditions.
 
 
     Definitions
 
 
-    Service Service is the
-    PageBall Timer mobile application operated by Developer Personal Data Personal
-    Data means data about a living individual who can be identified from those data
-    (or from those and other information either in our possession or likely to come
-    into our possession). Usage Data Usage Data is data collected automatically either
-    generated by the use of the Service or from the Service infrastructure itself
-    (for example, the duration of a page visit). Cookies Cookies are small files
-    stored on your device (computer or mobile device).
-
-
-    Information Collection
-    and Use
-
-
-    We collect several different types of information for various purposes
-    to provide and improve our Service to you. Types of Data Collected Personal Data
-    While using our Service, we may ask you to provide us with certain personally
-    identifiable information that can be used to contact or identify you ("Personal
-    Data"). Personally identifiable information may include, but is not limited to:
-    Cookies and Usage Data Usage Data When you access the Service by or through a
-    mobile device, we may collect certain information automatically, including, but
-    not limited to, the type of mobile device you use, your mobile device unique
-    ID, the IP address of your mobile device, your mobile operating system, the type
-    of mobile Internet browser you use, unique device identifiers and other diagnostic
-    data ("Usage Data"). Tracking & Cookies Data We use cookies and similar tracking
-    technologies to track the activity on our Service and we hold certain information.
-    Cookies are files with a small amount of data which may include an anonymous
-    unique identifier. Cookies are sent to your browser from a website and stored
-    on your device. Other tracking technologies are also used such as beacons, tags
-    and scripts to collect and track information and to improve and analyse our Service.
-    You can instruct your browser to refuse all cookies or to indicate when a cookie
-    is being sent. However, if you do not accept cookies, you may not be able to
-    use some portions of our Service. Examples of Cookies we use: Session Cookies.
-    We use Session Cookies to operate our Service. Preference Cookies. We use Preference
-    Cookies to remember your preferences and various settings. Security Cookies.
-    We use Security Cookies for security purposes.
-
-
-    Use of Data
-
-
     Service
-    uses the collected data for various purposes: To provide and maintain the Service
-    To notify you about changes to our Service To allow you to participate in interactive
-    features of our Service when you choose to do so To provide customer care and
-    support To provide analysis or valuable information so that we can improve the
-    Service To monitor the usage of the Service To detect, prevent and address technical
-    issues
+    Service is the Story Collectors mobile application operated by Developer Personal
+    Data Personal Data means data about a living individual who can be identified
+    from those data (or from those and other information either in our possession
+    or likely to come into our possession). Usage Data Usage Data is data collected
+    automatically either generated by the use of the Service or from the Service
+    infrastructure itself (for example, the duration of a page visit). Cookies Cookies
+    are small files stored on your device (computer or mobile device).
+
+
+    Information
+    Collection and Use
+
+
+    We collect several different types of information for
+    various purposes to provide and improve our Service to you. Types of Data Collected
+    Personal Data While using our Service, we may ask you to provide us with certain
+    personally identifiable information that can be used to contact or identify you
+    ("Personal Data"). Personally identifiable information may include, but is not
+    limited to: Cookies and Usage Data Usage Data When you access the Service by
+    or through a mobile device, we may collect certain information automatically,
+    including, but not limited to, the type of mobile device you use, your mobile
+    device unique ID, the IP address of your mobile device, your mobile operating
+    system, the type of mobile Internet browser you use, unique device identifiers
+    and other diagnostic data ("Usage Data"). Tracking & Cookies Data We use cookies
+    and similar tracking technologies to track the activity on our Service and we
+    hold certain information. Cookies are files with a small amount of data which
+    may include an anonymous unique identifier. Cookies are sent to your browser
+    from a website and stored on your device. Other tracking technologies are also
+    used such as beacons, tags and scripts to collect and track information and to
+    improve and analyse our Service. You can instruct your browser to refuse all
+    cookies or to indicate when a cookie is being sent. However, if you do not accept
+    cookies, you may not be able to use some portions of our Service. Examples of
+    Cookies we use: Session Cookies. We use Session Cookies to operate our Service.
+    Preference Cookies. We use Preference Cookies to remember your preferences and
+    various settings. Security Cookies. We use Security Cookies for security purposes.
+
+
+    Use
+    of Data
+
+
+    Service uses the collected data for various purposes: To provide
+    and maintain the Service To notify you about changes to our Service To allow
+    you to participate in interactive features of our Service when you choose to
+    do so To provide customer care and support To provide analysis or valuable information
+    so that we can improve the Service To monitor the usage of the Service To detect,
+    prevent and address technical issues
 
 
     Transfer Of Data
 
 
-    Your information, including Personal Data,
-    may be transferred to - and maintained on - computers located outside of your
-    state, province, country or other governmental jurisdiction where the data protection
-    laws may differ than those from your jurisdiction. If you are located outside
-    Seychelles and choose to provide information to us, please note that we transfer
-    the data, including Personal Data, to Seychelles and process it there. Your consent
-    to this Privacy Policy followed by your submission of such information represents
-    your agreement to that transfer. Service will take all steps reasonably necessary
-    to ensure that your data is treated securely and in accordance with this Privacy
-    Policy and no transfer of your Personal Data will take place to an organization
-    or a country unless there are adequate controls in place including the security
-    of your data and other personal information.
+    Your information,
+    including Personal Data, may be transferred to - and maintained on - computers
+    located outside of your state, province, country or other governmental jurisdiction
+    where the data protection laws may differ than those from your jurisdiction.
+    If you are located outside Seychelles and choose to provide information to us,
+    please note that we transfer the data, including Personal Data, to Seychelles
+    and process it there. Your consent to this Privacy Policy followed by your submission
+    of such information represents your agreement to that transfer. Service will
+    take all steps reasonably necessary to ensure that your data is treated securely
+    and in accordance with this Privacy Policy and no transfer of your Personal Data
+    will take place to an organization or a country unless there are adequate controls
+    in place including the security of your data and other personal information.
 
 
-    Disclosure Of Data
+    Disclosure
+    Of Data
 
 
-    Legal
-    Requirements Service may disclose your Personal Data in the good faith belief
-    that such action is necessary to: To comply with a legal obligation To protect
-    and defend the rights or property of Service To prevent or investigate possible
-    wrongdoing in connection with the Service To protect the personal safety of users
-    of the Service or the public To protect against legal liability As an European
-    citizen, under GDPR, you have certain individual rights. You can learn more about
-    these guides in the GDPR Guide.
+    Legal Requirements Service may disclose your Personal Data in the
+    good faith belief that such action is necessary to: To comply with a legal obligation
+    To protect and defend the rights or property of Service To prevent or investigate
+    possible wrongdoing in connection with the Service To protect the personal safety
+    of users of the Service or the public To protect against legal liability As an
+    European citizen, under GDPR, you have certain individual rights. You can learn
+    more about these guides in the GDPR Guide.
 
 
     Security of Data
 
 
-    The security of
-    your data is important to us but remember that no method of transmission over
+    The security
+    of your data is important to us but remember that no method of transmission over
     the Internet or method of electronic storage is 100% secure. While we strive
     to use commercially acceptable means to protect your Personal Data, we cannot
     guarantee its absolute security.
@@ -3367,9 +3366,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8e024e272d52a469a806c26d5706fa12, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb065e78d4b4644f284cf0e69e9b68aa, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -3544,7 +3543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.4}
+  m_Color: {r: 0.39607844, g: 0.34901962, b: 0.2901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3718,6 +3717,8 @@ GameObject:
   m_Component:
   - component: {fileID: 748630099}
   - component: {fileID: 748630102}
+  - component: {fileID: 748630104}
+  - component: {fileID: 748630103}
   m_Layer: 5
   m_Name: Body
   m_TagString: Untagged
@@ -3761,21 +3762,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _genreSprites:
+  - {fileID: 21300000, guid: c6de350f529194a0088fc7fca15947a6, type: 3}
   - {fileID: 21300000, guid: 7b344475e4dbd40f0a49b2e63b3d0ceb, type: 3}
-  - {fileID: 21300000, guid: 11db4c6eb616e42b1b9a58ad849ceda8, type: 3}
-  - {fileID: 21300000, guid: 853e63fb80e71485fb95312f9fef8268, type: 3}
-  - {fileID: 21300000, guid: 5eab3f6df608448199f27f7517baec7c, type: 3}
-  - {fileID: 21300000, guid: af9927a44515d4327acc8c6b20df09c3, type: 3}
-  - {fileID: 21300000, guid: 9f96d635f26dd445abbf8d834337f205, type: 3}
-  - {fileID: 21300000, guid: 385635ae35ba344d5b63e98ed42d34fc, type: 3}
-  - {fileID: 21300000, guid: fdecfa124720442389da01b37687e569, type: 3}
-  - {fileID: 21300000, guid: e5618d8baf76842f0a1f0a1bf3f35004, type: 3}
-  - {fileID: 21300000, guid: a5dc119efc3e943bb87d91584b4a7ee0, type: 3}
-  - {fileID: 21300000, guid: 8975bbd7a3547459e868576ffc95a8af, type: 3}
-  - {fileID: 21300000, guid: 701d278469bbf408f904538ddc0fc269, type: 3}
-  - {fileID: 21300000, guid: 7b2cf187e5604494ab0aaa23d85c4e63, type: 3}
-  - {fileID: 21300000, guid: 11747353c874b4bffb787f80679ba907, type: 3}
-  - {fileID: 21300000, guid: 836b6c21f52c64f23abe69340f82c4ff, type: 3}
+  - {fileID: 21300000, guid: 7a0096526fa6a44b9813612db2d342e9, type: 3}
+  - {fileID: 21300000, guid: fba70cfd021f941efa139d2727ec26ce, type: 3}
+  - {fileID: 21300000, guid: 81d26bba37d5147b4ac4ca797e76230a, type: 3}
+  - {fileID: 21300000, guid: bedfe1f4c73164844afe4ed37ba4b2e2, type: 3}
+  - {fileID: 21300000, guid: bb0f03e1c648b42e48133f9416d6afe7, type: 3}
+  - {fileID: 21300000, guid: 2a173b74656f143f19bc47907b40332a, type: 3}
+  - {fileID: 21300000, guid: 19f07d1f9ae654224b5d226bb24bfbee, type: 3}
+  - {fileID: 21300000, guid: 1a176c197fbb740f3a240e39b6dc3bba, type: 3}
+  - {fileID: 21300000, guid: e0807b2d3856345169202436cbf53cce, type: 3}
+  - {fileID: 21300000, guid: 6f593dd0ec7144f42886f25c1445d95f, type: 3}
+  - {fileID: 21300000, guid: ca9f81195d983460f858383b937178a9, type: 3}
+  - {fileID: 21300000, guid: d746e545a03be46c68c90c9d061e6f4e, type: 3}
+  - {fileID: 21300000, guid: ff19b66273f164b76bac79651aef2bba, type: 3}
   _genreImages:
   - {fileID: 882458170}
   - {fileID: 1244386818}
@@ -3792,6 +3793,44 @@ MonoBehaviour:
   _bookNameText: {fileID: 653923100}
   _descriptionText: {fileID: 2087547000}
   _reduce: 4
+--- !u!114 &748630103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748630098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c631a333585314c06b51183740ee6521, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &748630104
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748630098}
+  m_CullTransparentMesh: 1
 --- !u!1 &795611702
 GameObject:
   m_ObjectHideFlags: 0
@@ -4112,7 +4151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5176471, g: 0.29803923, b: 0.16078432, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4197,7 +4236,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &832580423
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4217,7 +4256,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -99, y: 30.5}
+  m_AnchoredPosition: {x: 0, y: 30.5}
   m_SizeDelta: {x: 183, y: 146}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &832580424
@@ -4240,7 +4279,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1d17198894339483081aff28947253a4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 15ccc66cc0a9843b88cfcb0d8be39906, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4625,10 +4664,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1759723792}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &891483110
 MonoBehaviour:
@@ -4643,14 +4682,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.94509804, g: 0.9137255, b: 0.8784314, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 40bb68a46c1164ccf9804d8d6c9fe8d7, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5114,7 +5153,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rewards
+  m_Text: An
 --- !u!222 &1009930925
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5265,9 +5304,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 81724815a316b4fe5a56d73d74e19cab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a8e4ae7b337d4a548810f60048892fd, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -5385,9 +5424,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2623567770def44dd8c348ce6ad59ecb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 864dda4fa871c4a3aac30a3801489683, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -5722,7 +5761,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e7e9e2fc50164ddf880e8880b827885, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 42e70d30c706143488f6c8c4a75eaa99, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5753,21 +5792,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _genreSprites:
+  - {fileID: 21300000, guid: c6de350f529194a0088fc7fca15947a6, type: 3}
   - {fileID: 21300000, guid: 7b344475e4dbd40f0a49b2e63b3d0ceb, type: 3}
-  - {fileID: 21300000, guid: 11db4c6eb616e42b1b9a58ad849ceda8, type: 3}
-  - {fileID: 21300000, guid: 853e63fb80e71485fb95312f9fef8268, type: 3}
-  - {fileID: 21300000, guid: 5eab3f6df608448199f27f7517baec7c, type: 3}
-  - {fileID: 21300000, guid: af9927a44515d4327acc8c6b20df09c3, type: 3}
-  - {fileID: 21300000, guid: 9f96d635f26dd445abbf8d834337f205, type: 3}
-  - {fileID: 21300000, guid: 385635ae35ba344d5b63e98ed42d34fc, type: 3}
-  - {fileID: 21300000, guid: fdecfa124720442389da01b37687e569, type: 3}
-  - {fileID: 21300000, guid: e5618d8baf76842f0a1f0a1bf3f35004, type: 3}
-  - {fileID: 21300000, guid: a5dc119efc3e943bb87d91584b4a7ee0, type: 3}
-  - {fileID: 21300000, guid: 8975bbd7a3547459e868576ffc95a8af, type: 3}
-  - {fileID: 21300000, guid: 701d278469bbf408f904538ddc0fc269, type: 3}
-  - {fileID: 21300000, guid: 7b2cf187e5604494ab0aaa23d85c4e63, type: 3}
-  - {fileID: 21300000, guid: 11747353c874b4bffb787f80679ba907, type: 3}
-  - {fileID: 21300000, guid: 836b6c21f52c64f23abe69340f82c4ff, type: 3}
+  - {fileID: 21300000, guid: 7a0096526fa6a44b9813612db2d342e9, type: 3}
+  - {fileID: 21300000, guid: fba70cfd021f941efa139d2727ec26ce, type: 3}
+  - {fileID: 21300000, guid: 81d26bba37d5147b4ac4ca797e76230a, type: 3}
+  - {fileID: 21300000, guid: bedfe1f4c73164844afe4ed37ba4b2e2, type: 3}
+  - {fileID: 21300000, guid: bb0f03e1c648b42e48133f9416d6afe7, type: 3}
+  - {fileID: 21300000, guid: 2a173b74656f143f19bc47907b40332a, type: 3}
+  - {fileID: 21300000, guid: 19f07d1f9ae654224b5d226bb24bfbee, type: 3}
+  - {fileID: 21300000, guid: 1a176c197fbb740f3a240e39b6dc3bba, type: 3}
+  - {fileID: 21300000, guid: e0807b2d3856345169202436cbf53cce, type: 3}
+  - {fileID: 21300000, guid: 6f593dd0ec7144f42886f25c1445d95f, type: 3}
+  - {fileID: 21300000, guid: ca9f81195d983460f858383b937178a9, type: 3}
+  - {fileID: 21300000, guid: d746e545a03be46c68c90c9d061e6f4e, type: 3}
+  - {fileID: 21300000, guid: ff19b66273f164b76bac79651aef2bba, type: 3}
   _genreImages:
   - {fileID: 1923840856}
   - {fileID: 665452943}
@@ -6474,8 +6513,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 68.5, y: -81.5}
-  m_SizeDelta: {x: 88.803085, y: 42.08494}
+  m_AnchoredPosition: {x: 54.2, y: -75}
+  m_SizeDelta: {x: 48.4, y: 48.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1474634643
 MonoBehaviour:
@@ -6541,7 +6580,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2c6fcf9c6b95a48a08dfda091f566634, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 67f8ea86493a548849dcfda6a9704cd4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6977,9 +7016,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8e024e272d52a469a806c26d5706fa12, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb065e78d4b4644f284cf0e69e9b68aa, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -7402,9 +7441,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 43a350d1d49cd4904b9b4c20422ebe97, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7aa01db041d644a08b7d5078d1ea0397, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -7638,10 +7677,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 698934202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1820063932
 MonoBehaviour:
@@ -7656,14 +7695,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.94509804, g: 0.9137255, b: 0.8784314, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0f8619f78eb114545beaebedea56b691, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7731,7 +7770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5176471, g: 0.29803923, b: 0.16078432, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8336,9 +8375,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 966cab017f1054442877160d740a9083, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9909d6b9857fa42df8d92df4e0696737, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -8404,7 +8443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5176471, g: 0.29803923, b: 0.16078432, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8626,7 +8665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8113208, g: 0.8074938, b: 0.8074938, a: 1}
+  m_Color: {r: 0.39607844, g: 0.34901962, b: 0.2901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8709,7 +8748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.4}
+  m_Color: {r: 0.39607844, g: 0.34901962, b: 0.2901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8720,9 +8759,9 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 22918ec4a578543d99e6d3245938d9a9, type: 3}
     m_FontSize: 12
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
-    m_MaxSize: 40
+    m_MaxSize: 13
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1

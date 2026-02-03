@@ -34,7 +34,7 @@ namespace Models
         {
             _bookName = name;
         }
-        
+
         public void UpdateDescription(string description)
         {
             _description = description;
@@ -54,10 +54,13 @@ namespace Models
                 GenreIndexes = new List<int>(_selectedGenres),
                 Stars = _rateCount
             };
-            
+
             List<BookModel> models = BooksInfo.LoadBooks(_path);
             models.Add(model);
+
             BooksInfo.SaveCount(models.Count);
+
+            // ✅ WebGL-safe: сохранение внутри без Task.Run (там внутри условная логика)
             await BooksInfo.SaveBookModelAsync(models, _path);
         }
 
@@ -70,9 +73,7 @@ namespace Models
                 if (isInList)
                 {
                     int index = _selectedGenres.IndexOf(value);
-                    
                     SubtractGenre(index);
-
                     return false;
                 }
                 else
@@ -99,12 +100,13 @@ namespace Models
             }
 
             _selectedGenres.Add(value);
-
             return true;
         }
 
         private void SubtractGenre(int index)
         {
+            // (на всякий случай защита)
+            if (index < 0 || index >= _selectedGenres.Count) return;
             _selectedGenres.RemoveAt(index);
         }
     }

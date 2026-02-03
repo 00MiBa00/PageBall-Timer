@@ -10,28 +10,21 @@ namespace Controllers.Scenes
 {
     public class CreateSceneController : AbstractSceneController
     {
-        [Space(5)] [Header("Input fields")] 
-        [SerializeField]
-        private InputField _nameInputField;
-        [SerializeField] 
-        private InputField _descriptionInputField;
+        [Space(5)] [Header("Input fields")]
+        [SerializeField] private InputField _nameInputField;
+        [SerializeField] private InputField _descriptionInputField;
 
-        [Space(5)] [Header("Views")] 
-        [SerializeField]
-        private GenresBodyView _genresBodyView;
-        [SerializeField] 
-        private RateBodyView _rateBodyView;
-        [SerializeField] 
-        private CharCountView _charCountView;
+        [Space(5)] [Header("Views")]
+        [SerializeField] private GenresBodyView _genresBodyView;
+        [SerializeField] private RateBodyView _rateBodyView;
+        [SerializeField] private CharCountView _charCountView;
 
-        [Space(5)] [Header("Buttons")] 
-        [SerializeField]
-        private Button _backBtn;
-        [SerializeField] 
-        private Button _saveBtn;
-        
+        [Space(5)] [Header("Buttons")]
+        [SerializeField] private Button _backBtn;
+        [SerializeField] private Button _saveBtn;
+
         private CreateBookModel _model;
-        
+
         protected override void OnSceneEnable()
         {
             CheckStateBackBtn();
@@ -39,14 +32,17 @@ namespace Controllers.Scenes
 
         protected override void OnSceneStart()
         {
-            string path = Path.Combine(Application.persistentDataPath, "Books.Path");
-            
+            // ✅ WebGL-friendly: сохраняем в persistentDataPath, понятное имя файла
+            string path = Path.Combine(Application.persistentDataPath, "books.json");
             _model.SetPath(path);
+
+            // (опционально для отладки)
+            // Debug.Log($"persistentDataPath: {Application.persistentDataPath}");
+            // Debug.Log($"books path: {path}");
         }
 
         protected override void OnSceneDisable()
         {
-            
         }
 
         protected override void Initialize()
@@ -58,7 +54,7 @@ namespace Controllers.Scenes
         {
             _saveBtn.onClick.AddListener(OnPressSaveBtn);
             _backBtn.onClick.AddListener(OnPressBackBtn);
-            
+
             _nameInputField.onEndEdit.AddListener(OnNameChanged);
             _descriptionInputField.onEndEdit.AddListener(OnDescriptionChanged);
             _descriptionInputField.onValueChanged.AddListener(OnDescriptionCharCountUpdated);
@@ -71,11 +67,11 @@ namespace Controllers.Scenes
         {
             _saveBtn.onClick.RemoveAllListeners();
             _backBtn.onClick.RemoveAllListeners();
-            
+
             _nameInputField.onEndEdit.RemoveAllListeners();
             _descriptionInputField.onEndEdit.RemoveAllListeners();
             _descriptionInputField.onValueChanged.RemoveAllListeners();
-            
+
             _genresBodyView.PressBtnAction -= OnPressGenreBtn;
             _rateBodyView.PressBtnAction -= OnPressRateBtn;
         }
@@ -83,7 +79,6 @@ namespace Controllers.Scenes
         private void OnNameChanged(string name)
         {
             _model.UpdateBookName(name);
-            
             CheckSaveBtnActive();
         }
 
@@ -107,20 +102,18 @@ namespace Controllers.Scenes
                 case null:
                     break;
             }
-            
+
             CheckSaveBtnActive();
         }
 
         private void OnPressRateBtn(int value)
         {
             base.SetClickClip();
-            
+
             value++;
-            
             _model.UpdateRate(value);
-            
+
             _rateBodyView.SetStates(value);
-            
             CheckSaveBtnActive();
         }
 
@@ -128,8 +121,19 @@ namespace Controllers.Scenes
         {
             _backBtn.interactable = false;
             _saveBtn.interactable = false;
-            
-            await _model.SaveBook();
+
+            // ✅ В WebGL async-исключения часто “ломают” JS-обвязку — ловим обязательно
+            try
+            {
+                await _model.SaveBook();
+            }
+            catch (System.Exception e)
+            {
+                Debug.LogError("SaveBook failed: " + e);
+                _backBtn.interactable = true;
+                _saveBtn.interactable = true;
+                return;
+            }
 
             if (_model.CanShowAds)
             {
@@ -176,7 +180,6 @@ namespace Controllers.Scenes
         private void ShowAd()
         {
             //CoreContainer.Instance.UnityAdsService.ShowAd();
-
             LoadGameScene();
         }
     }

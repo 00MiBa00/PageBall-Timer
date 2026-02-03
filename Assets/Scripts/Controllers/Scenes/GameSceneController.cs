@@ -112,7 +112,7 @@ namespace Controllers.Scenes
             _statusView.UpdateStatus(_model.StatusString);
 
             _progressBtn.gameObject.SetActive(isVip);
-            _rewardBtn.gameObject.SetActive(isVip);
+            //_rewardBtn.gameObject.SetActive(isVip);
             _subscriptionBtn.gameObject.SetActive(!isVip);
         }
 

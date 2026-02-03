@@ -24,7 +24,7 @@ namespace Models
         
         public GameModel()
         {
-            _path = Path.Combine(Application.persistentDataPath, "Books.Path");
+            _path = Path.Combine(Application.persistentDataPath, "books.json");
         }
 
         public void SetSelectedBookIndex(int index)
